@@ -1,0 +1,1823 @@
+# United States of America — World Airports Database
+
+1,777 records for **United States of America** (US).
+
+## Download
+
+| Format | Link |
+|---|---|
+| **SQLite / SQL** (all countries) | [GitHub Releases](../../releases) |
+| **Excel / CSV / PDF** (United States of America only) | [listbase.org](https://listbase.org/en/transport/us-airports/) |
+
+## Preview
+
+| icao | iata | name | city | state | country | elevation | lat | lon | tz |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 06N7 | NYS | New York Skyports Seaplane Base | New York | New York | US |  | 40.73399083 | -73.97291638 | America/New_York |
+| 19AK | ICY | Icy Bay Airport | Icy Bay | Alaska | US | 50 | 59.96900177 | -141.662002563 | America/Anchorage |
+| 2AK6 | HGZ | Hog River Airport | Hogatza | Alaska | US | 534 | 66.2161026 | -155.6690063 | America/Anchorage |
+| 38WA | BYW | Blakely Island Airport | Blakely Island | Washington | US | 66 | 48.5789985657 | -122.825996399 | America/Los_Angeles |
+| 3IS8 | BDF | Rinkenberger Restricted Landing Area | Bradford | Illinois | US | 808 | 41.2308998108 | -89.6156997681 | America/Chicago |
+| 65LA | BCS | Southern Seaplane Airport | Belle Chasse | Louisiana | US |  | 29.8661003113 | -90.0222015381 | America/Chicago |
+| 7NC2 | DUF | Pine Island Airport | Corolla | North Carolina | US | 16 | 36.2535018921 | -75.7884979248 | America/New_York |
+| 82CL | FOB | Fort Bragg Airport | Fort Bragg | California | US | 71 | 39.4743003845 | -123.79599762 | America/Los_Angeles |
+| AK13 | CEX | Chena Hot Springs Airport | Chena Hot Springs | Alaska | US | 1195 | 65.0518035889 | -146.04699707 | America/Anchorage |
+| AK33 | HED | Herendeen Bay Airport | Herendeen Bay | Alaska | US | 20 | 55.801399231 | -160.899002075 | America/Anchorage |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+
+*Showing 10 of 1,777 records*
+
+## Schema
+
+```sql
+SELECT * FROM airports WHERE country = 'US';
+```
+
+## Stats
+
+- **1,777** records
+- Country: **United States of America** (US)
+
+## Browse & Download
+
+📊 **[Download United States of America data as Excel/CSV/PDF](https://listbase.org/en/transport/us-airports/)**
+
+---
+
+Part of [World Airports Database](https://github.com/listbase-org/world-airports-databases) — 7,914 records across 236 countries.
+
+Made with data from [ListBase.org](https://listbase.org) — Free Reference Tables & Lists
+
+## All Entries (1771)
+
+- **A L Mangham Jr. Regional Airport** — Nacogdoches
+- **A P Hill Aaf (Fort A P Hill) Airport** — Fort A. P. Hill
+- **Aberdeen Regional Airport** — Aberdeen
+- **Abilene Regional Airport** — Abilene
+- **Abraham Lincoln Capital Airport** — Springfield
+- **Acadiana Regional Airport** — New Iberia
+- **Accomack County Airport** — Melfa
+- **Ada Municipal Airport** — Ada
+- **Adak Airport** — Adak Island
+- **Adams Field** — Little Rock
+- **Addington Field** — Elizabethtown
+- **Addison Airport** — Dallas
+- **Adirondack Regional Airport** — Saranac Lake
+- **Afton Municipal Airport** — Afton
+- **Aiken Municipal Airport** — Aiken
+- **Ainsworth Municipal Airport** — Ainsworth
+- **Akhiok Airport** — Akhiok
+- **Akiak Airport** — Akiak
+- **Akron Canton Regional Airport** — Akron
+- **Akron Fulton International Airport** — Akron
+- **Alakanuk Airport** — Alakanuk
+- **Alamogordo White Sands Regional Airport** — Alamogordo
+- **Albany International Airport** — Albany
+- **Albert J Ellis Airport** — Jacksonville
+- **Albert Lea Municipal Airport** — Albert Lea
+- **Albert Whitted Airport** — St Petersburg
+- **Albertus Airport** — Freeport
+- **Albuquerque International Sunport Airport** — Albuquerque
+- **Alexander Field South Wood County Airport** — Wisconsin Rapids
+- **Alexandria International Airport** — Alexandria
+- **Algona Municipal Airport** — Algona
+- **Alice International Airport** — Alice
+- **Allakaket Airport** — Allakaket
+- **Allegheny County Airport** — Pittsburgh
+- **Allen Army Airfield** — Delta Junction Ft Greely
+- **Allen C Perkinson Blackstone Army Air Field** — Blackstone
+- **Alliance Municipal Airport** — Alliance
+- **Alpena County Regional Airport** — Alpena
+- **Alpine Airstrip** — Deadhorse
+- **Altoona Blair County Airport** — Altoona
+- **Altus Air Force Base** — Altus
+- **Altus Quartz Mountain Regional Airport** — Altus
+- **Ambler Airport** — Ambler
+- **Amedee Army Air Field** — Herlong
+- **Amery Municipal Airport** — Amery
+- **Ames Municipal Airport** — Ames
+- **Anaktuvuk Pass Airport** — Anaktuvuk Pass
+- **Anderson Municipal Darlington Field** — Anderson
+- **Anderson Regional Airport** — Anderson
+- **Andrews Air Force Base** — Camp Springs
+- **Angel Fire Airport** — Angel Fire
+- **Angelina County Airport** — Lufkin
+- **Angoon Seaplane Base** — Angoon
+- **Aniak Airport** — Aniak
+- **Animas Air Park** — Durango
+- **Ann Arbor Municipal Airport** — Ann Arbor
+- **Annette Island Airport** — Annette
+- **Anniston Metropolitan Airport** — Anniston
+- **Anthony Municipal Airport** — Anthony
+- **Antlers Municipal Airport** — Antlers
+- **Antrim County Airport** — Bellaire
+- **Anvik Airport** — Anvik
+- **Apalachicola Regional Airport** — Apalachicola
+- **Apple Valley Airport** — Apple Valley
+- **Appleton International Airport** — Appleton
+- **Aransas County Airport** — Rockport
+- **Arapahoe Municipal Airport** — Arapahoe
+- **Arctic Village Airport** — Arctic Village
+- **Ardmore Municipal Airport** — Ardmore
+- **Arkansas International Airport** — Blytheville
+- **Arnold Palmer Regional Airport** — Latrobe
+- **Artesia Municipal Airport** — Artesia
+- **Arthur N Neu Airport** — Carroll
+- **Asheville Regional Airport** — Asheville
+- **Ashland Municipal Sumner Parker Field** — Ashland
+- **Ashley Municipal Airport** — Ashley
+- **Aspen-Pitkin Co/Sardy Field** — Aspen
+- **Astoria Regional Airport** — Astoria
+- **Athens Ben Epps Airport** — Athens
+- **Atka Airport** — Atka
+- **Atkinson Municipal Airport** — Pittsburg
+- **Atlantic City International Airport** — Atlantic City
+- **Atlantic Municipal Airport** — Atlantic
+- **Atqasuk Edward Burnell Sr Memorial Airport** — Atqasuk
+- **Auburn Lewiston Municipal Airport** — Auburn/Lewiston
+- **Auburn Municipal Airport** — Auburn
+- **Auburn Opelika Robert G. Pitts Airport** — Auburn
+- **Augusta Regional At Bush Field** — Augusta
+- **Augusta State Airport** — Augusta
+- **Aurora Municipal Airport** — Chicago/Aurora
+- **Austin Airport** — Austin
+- **Austin Bergstrom International Airport** — Austin
+- **Austin Municipal Airport** — Austin
+- **Austin Straubel International Airport** — Green Bay
+- **Avenger Field** — Sweetwater
+- **Avon Park Executive Airport** — Avon Park
+- **Bagdad Airport** — Bagdad
+- **Baker City Municipal Airport** — Baker City
+- **Baldwin County Airport** — Milledgeville
+- **Baltimore/Washington International Thurgood Marshal Airport** — Baltimore
+- **Bandon State Airport** — Bandon
+- **Bangor International Airport** — Bangor
+- **Banning Municipal Airport** — Banning
+- **Barin Nolf Airport** — Foley
+- **Barking Sands Airport** — Kekaha
+- **Barkley Regional Airport** — Paducah
+- **Barksdale Air Force Base** — Bossier City
+- **Barnwell Regional Airport** — Barnwell
+- **Barrow County Airport** — Winder
+- **Barstow Daggett Airport** — Daggett
+- **Barter Island LRRS Airport** — Barter Island Lrrs
+- **Bartlesville Municipal Airport** — Bartlesville
+- **Bartow Municipal Airport** — Bartow
+- **Batesville Airport** — Batesville
+- **Batesville Regional Airport** — Batesville
+- **Baton Rouge Metropolitan Ryan Field** — Baton Rouge
+- **Battle Creek Executive Airport at Kellogg Field** — Battle Creek
+- **Battle Mountain Airport** — Battle Mountain
+- **Baudette International Airport** — Baudette
+- **Bay City Municipal Airport** — Bay City
+- **Baytown Airport** — Baytown
+- **Beale Air Force Base** — Marysville
+- **Beatrice Municipal Airport** — Beatrice
+- **Beatty Airport** — Beatty
+- **Beaufort County Airport** — Beaufort
+- **Beaumont Municipal Airport** — Beaumont
+- **Beauregard Regional Airport** — De Ridder
+- **Beaver Airport** — Beaver
+- **Beaver County Airport** — Beaver Falls
+- **Beech Factory Airport** — Wichita
+- **Bellingham International Airport** — Bellingham
+- **Beluga Airport** — Beluga
+- **Bemidji Regional Airport** — Bemidji
+- **Benson Municipal Airport** — Benson
+- **Berlin Regional Airport** — Berlin
+- **Bermuda Dunes Airport** — Palm Springs
+- **Bert Mooney Airport** — Butte
+- **Bethel Airport** — Bethel
+- **Bettles Airport** — Bettles
+- **Beverly Regional Airport** — Beverly
+- **Bicycle Lake Army Air Field** — Fort Irwin/Barstow
+- **Big Lake Airport** — Big Lake
+- **Big Mountain Airport** — Big Mountain
+- **Big Spring Mc Mahon-Wrinkle Airport** — Big Spring
+- **Biggs Army Air Field (Fort Bliss)** — Fort Bliss/El Paso
+- **Billings Logan International Airport** — Billings
+- **Billy Mitchell Airport** — Hatteras
+- **Birmingham-Shuttlesworth International Airport** — Birmingham
+- **Bisbee Douglas International Airport** — Douglas Bisbee
+- **Bisbee Municipal Airport** — Bisbee
+- **Bishop International Airport** — Flint
+- **Bismarck Municipal Airport** — Bismarck
+- **Black Hills Clyde Ice Field** — Spearfish
+- **Blackwell Tonkawa Municipal Airport** — Blackwell
+- **Blakely Island Airport** — Blakely Island
+- **Blanding Municipal Airport** — Blanding
+- **Block Island State Airport** — Block Island
+- **Blosser Municipal Airport** — Concordia
+- **Blue Canyon Nyack Airport** — Emigrant Gap
+- **Blue Grass Airport** — Lexington
+- **Blythe Airport** — Blythe
+- **Blytheville Municipal Airport** — Blytheville
+- **Bob Baker Memorial Airport** — Kiana
+- **Bob Hope Airport** — Burbank
+- **Bob Sikes Airport** — Crestview
+- **Boca Raton Airport** — Boca Raton
+- **Boeing Field King County International Airport** — Seattle
+- **Boire Field** — Nashua
+- **Boise Air Terminal/Gowen field** — Boise
+- **Bomar Field Shelbyville Municipal Airport** — Shelbyville
+- **Boone County Airport** — Harrison
+- **Boone Municipal Airport** — Boone
+- **Borrego Valley Airport** — Borrego Springs
+- **Boswell Bay Airport** — Boswell Bay
+- **Boulder City Municipal Airport** — Boulder City
+- **Boulder Municipal Airport** — Boulder
+- **Bowerman Airport** — Hoquiam
+- **Bowers Field** — Ellensburg
+- **Bowling Green Warren County Regional Airport** — Bowling Green
+- **Bowman Field** — Louisville
+- **Bowman Municipal Airport** — Bowman
+- **Bozeman Yellowstone International Airport** — Bozeman
+- **Brackett Field** — La Verne
+- **Bradford Regional Airport** — Bradford
+- **Bradley International Airport** — Hartford
+- **Bradshaw Army Airfield** — Camp Pohakuloa
+- **Brainerd Lakes Regional Airport** — Brainerd
+- **Branson Airport** — Branson
+- **Brawley Municipal Airport** — Brawley
+- **Bremerton National Airport** — Bremerton
+- **Brevig Mission Airport** — Brevig Mission
+- **Brewster Field** — Holdrege
+- **Brigham City Airport** — Brigham City
+- **Britton Municipal Airport** — Britton
+- **Broadus Airport** — Broadus
+- **Broken Bow Municipal Airport** — Broken Bow
+- **Brookhaven Airport** — Shirley
+- **Brookings Regional Airport** — Brookings
+- **Brown Field Municipal Airport** — San Diego
+- **Brownsville South Padre Island International Airport** — Brownsville
+- **Brownwood Regional Airport** — Brownwood
+- **Bruce Campbell Field** — Madison
+- **Brunswick County Airport** — Lawrenceville
+- **Brunswick Executive Airport** — Brunswick
+- **Brunswick Golden Isles Airport** — Brunswick
+- **Bryant Army Heliport** — Fort Richardson (Anchorage)
+- **Bryce Canyon Airport** — Bryce Canyon
+- **Buchanan Field** — Concord
+- **Buckeye Municipal Airport** — Buckeye
+- **Buckland Airport** — Buckland
+- **Buckley Air Force Base** — Aurora
+- **Buffalo Niagara International Airport** — Buffalo
+- **Bullfrog Basin Airport** — Glen Canyon Natl Rec Area
+- **Burke Lakefront Airport** — Cleveland
+- **Burley Municipal Airport** — Burley
+- **Burns Municipal Airport** — Burns
+- **Butler Co Regional Airport** — Hamilton
+- **Butler Memorial Airport** — Butler
+- **Butts AAF (Fort Carson) Air Field** — Fort Carson
+- **C David Campbell Field Corsicana Municipal Airport** — Corsicana
+- **Cabaniss Field Nolf Airport** — Corpus Christi
+- **Cable Airport** — Upland
+- **Cairns AAF (Fort Rucker) Air Field** — Fort Rucker/Ozark
+- **Cairo Regional Airport** — Cairo
+- **Caledonia County Airport** — Lyndonville
+- **Calexico International Airport** — Calexico
+- **California Redwood Coast-Humboldt County Airport** — Arcata/Eureka
+- **Cambridge Dorchester Airport** — Cambridge
+- **Campbell AAF (Fort Campbell) Air Field** — Fort Campbell/Hopkinsville
+- **Candle 2 Airport** — Candle
+- **Cannon Air Force Base** — Clovis
+- **Canyonlands Field** — Moab
+- **Cape Cod Coast Guard Air Station** — Falmouth
+- **Cape Cod Gateway Airport** — Hyannis
+- **Cape Girardeau Regional Airport** — Cape Girardeau
+- **Cape Lisburne LRRS Airport** — Cape Lisburne
+- **Cape May County Airport** — Wildwood
+- **Cape Newenham LRRS Airport** — Cape Newenham
+- **Cape Romanzof LRRS Airport** — Cape Romanzof
+- **Cape Sarichef Airport** — Cape Sarichef
+- **Capital City Airport** — Frankfort
+- **Capital City Airport** — Harrisburg
+- **Capital Region International Airport** — Lansing
+- **Captain Jack Thomas El Dorado Airport** — El Dorado
+- **Carbon County Regional/Buck Davis Field** — Price
+- **Caribou Municipal Airport** — Caribou
+- **Carson Airport** — Carson City
+- **Casa Grande Municipal Airport** — Casa Grande
+- **Cascade Airport** — Cascade
+- **Casco Cove Coast Guard Station** — Attu
+- **Casper-Natrona County International Airport** — Casper
+- **Castle Airport** — Merced
+- **Catalina Airport** — Avalon
+- **Cattaraugus County-Olean Airport** — Olean
+- **Cavern City Air Terminal** — Carlsbad
+- **Cecil Field** — Jacksonville
+- **Cedar City Regional Airport** — Cedar City
+- **Centennial Airport** — Denver
+- **Centerville Municipal Airport** — Centerville
+- **Central Airport** — Central
+- **Central Illinois Regional Airport at Bloomington-Normal** — Bloomington-Normal
+- **Central Jersey Regional Airport** — Manville
+- **Central Maine Arpt of Norridgewock Airport** — Norridgewock
+- **Central Nebraska Regional Airport** — Grand Island
+- **Central Wisconsin Airport** — Mosinee
+- **Central Wyoming Regional Airport** — Riverton
+- **Centralia Municipal Airport** — Centralia
+- **Cessna Acft Field** — Wichita
+- **Chadron Municipal Airport** — Chadron
+- **Chalkyitsik Airport** — Chalkyitsik
+- **Challis Airport** — Challis
+- **Chan Gurney Municipal Airport** — Yankton
+- **Chandalar Lake Airport** — Chandalar Lake
+- **Chandler Field** — Alexandria
+- **Chanute Martin Johnson Airport** — Chanute
+- **Charles B. Wheeler Downtown Airport** — Kansas City
+- **Charles M. Schulz Sonoma County Airport** — Santa Rosa
+- **Charleston Air Force Base-International Airport** — Charleston
+- **Charlotte Douglas International Airport** — Charlotte
+- **Charlottesville Albemarle Airport** — Charlottesville
+- **Chautauqua County-Dunkirk Airport** — Dunkirk
+- **Chautauqua County-Jamestown Airport** — Jamestown
+- **Chefornak Airport** — Chefornak
+- **Chehalis Centralia Airport** — Chehalis
+- **Chena Hot Springs Airport** — Chena Hot Springs
+- **Chenega Bay Airport** — Chenega
+- **Chennault International Airport** — Lake Charles
+- **Cheraw Municipal Lynch Bellinger Field** — Cheraw
+- **Cherokee County Airport** — Jacksonville
+- **Cherry Capital Airport** — Traverse City
+- **Chester County G O Carlson Airport** — Coatesville
+- **Chevak Airport** — Chevak
+- **Cheyenne Regional Jerry Olson Field** — Cheyenne
+- **Chicago Executive Airport** — Chicago/Prospect Heights/Wheeling
+- **Chicago Midway International Airport** — Chicago
+- **Chicago O&#39;Hare International Airport** — Chicago
+- **Chicago Rockford International Airport** — Chicago/Rockford
+- **Chickasha Municipal Airport** — Chickasha
+- **Chico Municipal Airport** — Chico
+- **Childress Municipal Airport** — Childress
+- **Chino Airport** — Chino
+- **Chippewa County International Airport** — Sault Ste Marie
+- **Chippewa Valley Regional Airport** — Eau Claire
+- **Chuathbaluk Airport** — Chuathbaluk
+- **Cincinnati Municipal Airport Lunken Field** — Cincinnati
+- **Cincinnati Northern Kentucky International Airport** — Hebron
+- **Circle City /New/ Airport** — Circle
+- **City of Colorado Springs Municipal Airport** — Colorado Springs
+- **Claremont Municipal Airport** — Claremont
+- **Clarks Point Airport** — Clarks Point
+- **Clayton Municipal Airpark** — Clayton
+- **Clearwater Air Park** — Clearwater
+- **Cleveland Hopkins International Airport** — Cleveland
+- **Cliff Hatfield Memorial Airport** — Calipatria
+- **Clinton Municipal Airport** — Clinton
+- **Clinton Regional Airport** — Clinton
+- **Clinton Sherman Airport** — Clinton
+- **Clintonville Municipal Airport** — Clintonville
+- **Clovis Municipal Airport** — Clovis
+- **Coastal Carolina Regional Airport** — New Bern
+- **Cochise County Airport** — Willcox
+- **Coeur D&#39;Alene - Pappy Boyington Field** — Coeur d&#39;Alene
+- **Coffeyville Municipal Airport** — Coffeyville
+- **Cold Bay Airport** — Cold Bay
+- **Coldfoot Airport** — Coldfoot
+- **Coleman A. Young Municipal Airport** — Detroit
+- **Coleman Municipal Airport** — Coleman
+- **Coles County Memorial Airport** — Mattoon/Charleston
+- **College Park Airport** — College Park
+- **Colorado Plains Regional Airport** — Akron
+- **Columbia County Airport** — Hudson
+- **Columbia Gorge Regional the Dalles Municipal Airport** — The Dalles
+- **Columbia Metropolitan Airport** — Columbia
+- **Columbia Regional Airport** — Columbia
+- **Columbus Air Force Base** — Columbus
+- **Columbus Lowndes County Airport** — Columbus
+- **Columbus Metropolitan Airport** — Columbus
+- **Columbus Municipal Airport** — Columbus
+- **Compton Woodley Airport** — Compton
+- **Concord Municipal Airport** — Concord
+- **Concord Regional Airport** — Concord
+- **Condron Army Air Field** — White Sands
+- **Conroe/North Houston Regional Airport** — Houston
+- **Converse County Airport** — Douglas
+- **Corcoran Airport** — Corcoran
+- **Corpus Christi International Airport** — Corpus Christi
+- **Corpus Christi Naval Air Station/Truax Field** — Corpus Christi
+- **Cortez Municipal Airport** — Cortez
+- **Corvallis Municipal Airport** — Corvallis
+- **Cotulla-La Salle County** — Cotulla
+- **Coulter Field** — Bryan
+- **Council Bluffs Municipal Airport** — Council Bluffs
+- **Cox Field** — Paris
+- **Craig Field** — Selma
+- **Craig Moffat Airport** — Craig
+- **Cram Field** — Burwell
+- **Crane County Airport** — Crane
+- **Crater Lake/Klamath Regional Airport** — Klamath Falls
+- **Creech Air Force Base** — Indian Springs
+- **Creston Municipal Airport** — Creston
+- **Crookston Municipal Kirkwood Field** — Crookston
+- **Cross City Airport** — Cross City
+- **Crossville Memorial Whitson Field** — Crossville
+- **Crystal Airport** — Minneapolis
+- **Culberson County Airport** — Van Horn
+- **Curtis Field** — Brady
+- **Cushing Municipal Airport** — Cushing
+- **Cut Bank Municipal Airport** — Cut Bank
+- **Cuyahoga County Airport** — Cleveland
+- **Dade Collier Training and Transition Airport** — Miami
+- **Dahlgren Naval Surface Warfare Center Airport** — Dahlgren
+- **Dalhart Municipal Airport** — Dalhart
+- **Dallas Executive Airport** — Dallas
+- **Dallas Fort Worth International Airport** — Dallas-Fort Worth
+- **Dallas Love Field** — Dallas
+- **Dalton Municipal Airport** — Dalton
+- **Danbury Municipal Airport** — Danbury
+- **Dane County Regional Truax Field** — Madison
+- **Daniel Field** — Augusta
+- **Dansville Municipal Airport** — Dansville
+- **Danville Regional Airport** — Danville
+- **Dare County Regional Airport** — Manteo
+- **Davenport Municipal Airport** — Davenport
+- **David Wayne Hooks Memorial Airport** — Houston
+- **Davis Field** — Muskogee
+- **Davis Monthan Air Force Base** — Tucson
+- **Davison Army Air Field** — Fort Belvoir
+- **Dawson Community Airport** — Glendive
+- **Dayton Wright Brothers Airport** — Dayton
+- **Daytona Beach International Airport** — Daytona Beach
+- **DeKalb Peachtree Airport** — Atlanta
+- **Deadhorse Airport** — Deadhorse
+- **Decatur Airport** — Decatur
+- **Decatur County Industrial Air Park** — Bainbridge
+- **Decatur Shores Airport** — Decatur
+- **Decorah Municipal Airport** — Decorah
+- **Deering Airport** — Deering
+- **Defiance Memorial Airport** — Defiance
+- **Del Rio International Airport** — Del Rio
+- **Delaurentis Airport** — Oak Harbor
+- **Delaware Coastal Airport** — Georgetown
+- **Delaware County Johnson Field** — Muncie
+- **Delta County Airport** — Escanaba
+- **Delta Municipal Airport** — Delta
+- **Deming Municipal Airport** — Deming
+- **Denison Municipal Airport** — Denison
+- **Denver International Airport** — Denver
+- **Derby Field** — Lovelock
+- **Des Moines International Airport** — Des Moines
+- **Desert Rock Airport** — Mercury
+- **Destin Fort Walton Beach Airport** — Destin
+- **Detroit Lakes Airport - Wething Field** — Detroit Lakes
+- **Detroit Metropolitan Wayne County Airport** — Detroit
+- **Devils Lake Regional Airport** — Devils Lake
+- **Dewitt FieldOld Town Municipal Airport** — Old Town
+- **Dickinson Theodore Roosevelt Regional Airport** — Dickinson
+- **Dillant Hopkins Airport** — Keene
+- **Dillingham Airfield** — Mokuleia
+- **Dillingham Airport** — Dillingham
+- **Dillon Airport** — Dillon
+- **Dillon County Airport** — Dillon
+- **Dimmit County Airport** — Carrizo Springs
+- **Dinwiddie County Airport** — Petersburg
+- **Dobbins Air Reserve Base Airport** — Marietta
+- **Dodge City Regional Airport** — Dodge City
+- **Dodge County Airport** — Juneau
+- **Donaldson Center Airport** — Greenville
+- **Door County Cherryland Airport** — Sturgeon Bay
+- **Dothan Regional Airport** — Dothan
+- **Douglas Municipal Airport** — Douglas
+- **Dover Air Force Base** — Dover
+- **Downtown Airpark** — Oklahoma City
+- **Doylestown Airport** — Doylestown
+- **Drake Field** — Fayetteville
+- **Draughon Miller Central Texas Regional Airport** — Temple
+- **Drummond Island Airport** — Drummond Island
+- **DuBois Regional Airport** — Dubois
+- **Dubuque Regional Airport** — Dubuque
+- **Duke Field(Eglin Af Aux Nr 3) Airport** — Crestview
+- **Duluth International Airport** — Duluth
+- **Dunsmuir Municipal-Mott Airport** — Dunsmuir
+- **Dupage Airport** — Chicago/West Chicago
+- **Durango La Plata County Airport** — Durango
+- **Dyess Air Force Base** — Abilene
+- **Eagle Airport** — Eagle
+- **Eagle County Regional Airport** — Eagle
+- **Eagle Lake Airport** — Eagle Lake
+- **Eagle River Union Airport** — Eagle River
+- **Eaker Field** — Durant
+- **Eareckson Air Station** — Shemya
+- **East Texas Regional Airport** — Longview
+- **Eastern Oregon Regional At Pendleton Airport** — Pendleton
+- **Eastern Sierra Regional Airport** — Bishop
+- **Eastern Slopes Regional Airport** — Fryeburg
+- **Eastern Wv Regional Shepherd Field** — Martinsburg
+- **Easterwood Field** — College Station
+- **Eastland Municipal Airport** — Eastland
+- **Easton Newnam Field** — Easton
+- **Easton State Airport** — Easton
+- **Ed Carlson Memorial Field South Lewis County Airport** — Toledo
+- **Edward F Knapp State Airport** — Barre/Montpelier
+- **Edward G. Pitka Sr Airport** — Galena
+- **Edwards Air Force Base** — Edwards
+- **Eek Airport** — Eek
+- **Egegik Airport** — Egegik
+- **Eglin Air Force Base** — Valparaiso
+- **Eielson Air Force Base** — Fairbanks
+- **El Centro Naf Airport** — El Centro
+- **El Paso International Airport** — El Paso
+- **El Reno Regional Airport** — El Reno
+- **Elim Airport** — Elim
+- **Elizabeth City Regional Airport &amp; Coast Guard Air Station** — Elizabeth City
+- **Elizabeth Field** — Fishers Island
+- **Elk City Regional Business Airport** — Elk City
+- **Elkhart Municipal Airport** — Elkhart
+- **Elkins-Randolph Co-Jennings Randolph Field** — Elkins
+- **Elko Regional Airport** — Elko
+- **Ellington Airport** — Houston
+- **Ellsworth Air Force Base** — Rapid City
+- **Elmendorf Air Force Base** — Anchorage
+- **Elmira Corning Regional Airport** — Elmira/Corning
+- **Ely Airport Yelland Field** — Ely
+- **Ely Municipal Airport** — Ely
+- **Emmonak Airport** — Emmonak
+- **Emporia Municipal Airport** — Emporia
+- **Enid Woodring Regional Airport** — Enid
+- **Enterprise Municipal Airport** — Enterprise
+- **Ephrata Municipal Airport** — Ephrata
+- **Eppley Airfield** — Omaha
+- **Erie International Tom Ridge Field** — Erie
+- **Ernest A. Love Field** — Prescott
+- **Errol Airport** — Errol
+- **Esler Regional Airport** — Alexandria
+- **Essex County Airport** — Caldwell
+- **Estherville Municipal Airport** — Estherville
+- **Evanston-Uinta County Airport-Burns Field** — Evanston
+- **Evansville Regional Airport** — Evansville
+- **Eveleth Virginia Municipal Airport** — Eveleth
+- **Everett-Stewart Regional Airport** — Union City
+- **Fairbanks International Airport** — Fairbanks
+- **Fairbury Municipal Airport** — Fairbury
+- **Fairchild Air Force Base** — Spokane
+- **Fairfield Municipal Airport** — Fairfield
+- **Fairmont Municipal Airport** — Fairmont
+- **Falcon Field** — Mesa
+- **Fallon Municipal Airport** — Fallon
+- **Fallon Naval Air Station /Van Voorhis Field** — Fallon
+- **Falls International Airport** — International Falls
+- **False Pass Airport** — False Pass
+- **Farewell Airport** — Farewell
+- **Faribault Municipal Airport** — Faribault
+- **Farmington Regional Airport** — Farmington
+- **Fayetteville Municipal Airport** — Fayetteville
+- **Fayetteville Regional Grannis Field** — Fayetteville
+- **Felker Army Air Field** — Fort Eustis
+- **Felts Field** — Spokane
+- **Fergus Falls Municipal Einar Mickelson Field** — Fergus Falls
+- **Fernandina Beach Municipal Airport** — Fernandina Beach
+- **Fillmore Municipal Airport** — Fillmore
+- **Findlay Airport** — Findlay
+- **First Flight Airport** — Kill Devil Hills
+- **Five Mile Airport** — Five Mile
+- **Flabob Airport** — Riverside/Rubidoux/
+- **Flagstaff Pulliam Airport** — Flagstaff
+- **Fletcher Field** — Clarksdale
+- **Florence Municipal Airport** — Florence
+- **Florence Regional Airport** — Florence
+- **Floyd Bennett Memorial Airport** — Glens Falls
+- **Flying Cloud Airport** — Minneapolis
+- **Fond du Lac County Airport** — Fond du Lac
+- **Foothills Regional Airport** — Morganton
+- **Ford Airport** — Iron Mountain Kingsford
+- **Forest City Municipal Airport** — Forest City
+- **Forrest City Municipal Airport** — Forrest City
+- **Fort Bragg Airport** — Fort Bragg
+- **Fort Bridger Airport** — Fort Bridger
+- **Fort Dodge Regional Airport** — Fort Dodge
+- **Fort Lauderdale Executive Airport** — Fort Lauderdale
+- **Fort Lauderdale Hollywood International Airport** — Fort Lauderdale
+- **Fort Madison Municipal Airport** — Fort Madison
+- **Fort Scott Municipal Airport** — Fort Scott
+- **Fort Smith Regional Airport** — Fort Smith
+- **Fort Stockton Pecos County Airport** — Fort Stockton
+- **Fort Sumner Municipal Airport** — Fort Sumner
+- **Fort Wayne International Airport** — Fort Wayne
+- **Fort Worth Alliance Airport** — Fort Worth
+- **Fort Worth Meacham International Airport** — Fort Worth
+- **Fort Worth Nas Jrb/Carswell field** — Fort Worth
+- **Fort Yukon Airport** — Fort Yukon
+- **Four Corners Regional Airport** — Farmington
+- **Francis S Gabreski Airport** — Westhampton Beach
+- **Frank Wiley Field** — Miles City
+- **Franklin County Airport** — Sewanee
+- **Franklin Municipal John Beverly Rose Airport** — Franklin
+- **Frederick Municipal Airport** — Frederick
+- **Frederick Regional Airport** — Frederick
+- **Freeman Municipal Airport** — Seymour
+- **Fremont Municipal Airport** — Fremont
+- **French Lick Municipal Airport** — French Lick
+- **Fresno Chandler Executive Airport** — Fresno
+- **Fresno Yosemite International Airport** — Fresno
+- **Friday Harbor Airport** — Friday Harbor
+- **Friedman Memorial Airport** — Hailey
+- **Front Royal Warren County Airport** — Front Royal
+- **Fullerton Municipal Airport** — Fullerton
+- **Fulton County Airport Brown Field** — Atlanta
+- **Fulton County Airport** — Rochester
+- **Gabbs Airport** — Gabbs
+- **Gage Airport** — Gage
+- **Gainesville Municipal Airport** — Gainesville
+- **Gainesville Regional Airport** — Gainesville
+- **Galbraith Lake Airport** — Galbraith Lake
+- **Galesburg Municipal Airport** — Galesburg
+- **Galion Municipal Airport** — Galion
+- **Gallup Municipal Airport** — Gallup
+- **Gambell Airport** — Gambell
+- **Gansner Field** — Quincy
+- **Garden City Regional Airport** — Garden City
+- **Garden County Airport** — Oshkosh
+- **Gardner Municipal Airport** — Gardner
+- **Garfield County Regional Airport** — Rifle
+- **Garner Field** — Uvalde
+- **Gary Chicago International Airport** — Gary
+- **Gatlinburg Pigeon Forge Airport** — Sevierville
+- **Gaylord Regional Airport** — Gaylord
+- **General Edward Lawrence Logan International Airport** — Boston
+- **General Mitchell International Airport** — Milwaukee
+- **General WM J Fox Airfield** — Lancaster
+- **George Bush Intercontinental Houston Airport** — Houston
+- **George Downer Airport** — Aliceville
+- **George R Carr Memorial Air Field** — Bogalusa
+- **George T Lewis Airport** — Cedar Key
+- **Georgetown County Airport** — Georgetown
+- **Gerald R. Ford International Airport** — Grand Rapids
+- **Gillespie Field** — San Diego/El Cajon
+- **Glacier Park International Airport** — Kalispell
+- **Gladwin Zettel Memorial Airport** — Gladwin
+- **Glasgow Municipal Airport** — Glasgow
+- **Glenwood Springs Municipal Airport** — Glenwood Springs
+- **Gnoss Field** — Novato
+- **Godman Army Air Field** — Fort Knox
+- **Gogebic Iron County Airport** — Ironwood
+- **Golden Triangle Regional Airport** — Columbus/W Point/Starkville
+- **Golovin Airport** — Golovin
+- **Gooding Municipal Airport** — Gooding
+- **Gordon Municipal Airport** — Gordon
+- **Gordonsville Municipal Airport** — Gordonsville
+- **Goshen Municipal Airport** — Goshen
+- **Grand Canyon National Park Airport** — Grand Canyon
+- **Grand Canyon West Airport** — Peach Springs
+- **Grand Coulee Dam Airport** — Electric City
+- **Grand Forks Air Force Base** — Grand Forks
+- **Grand Forks International Airport** — Grand Forks
+- **Grand Junction Regional Airport** — Grand Junction
+- **Grand Marais Cook County Airport** — Grand Marais
+- **Grand Rapids Itasca Co-Gordon Newstrom field** — Grand Rapids
+- **Grand Strand Airport** — North Myrtle Beach
+- **Granite Mountain Air Station** — Granite Mountain
+- **Grant Co International Airport** — Moses Lake
+- **Grant Co Regional/Ogilvie Field** — John Day
+- **Grant County Airport** — Petersburg
+- **Grant County Airport** — Silver City
+- **Grants Milan Municipal Airport** — Grants
+- **Grants Pass Airport** — Grants Pass
+- **Grantsburg Municipal Airport** — Grantsburg
+- **Gratiot Community Airport** — Alma
+- **Gray Army Air Field** — Fort Lewis/Tacoma
+- **Great Bend Municipal Airport** — Great Bend
+- **Great Falls International Airport** — Great Falls
+- **Greater Binghamton/Edwin A Link field** — Binghamton
+- **Greater Cumberland Regional Airport** — Cumberland
+- **Greater Kankakee Airport** — Kankakee
+- **Greater Peoria Regional Airport** — Peoria
+- **Greater Portsmouth Regional Airport** — Portsmouth
+- **Greater Rochester International Airport** — Rochester
+- **Greeley Weld County Airport** — Greeley
+- **Green River Municipal Airport** — Green River
+- **Greenbrier Valley Airport** — Lewisburg
+- **Greene County Airport** — Waynesburg
+- **Greeneville Greene County Municipal Airport** — Greeneville
+- **Greenlee County Airport** — Clifton/Morenci
+- **Greenville Airport** — Greenville
+- **Greenville Downtown Airport** — Greenville
+- **Greenville Mid-Delta Airport** — Greenville
+- **Greenville Spartanburg International Airport** — Greenville
+- **Greenwood County Airport** — Greenwood
+- **Greenwood Leflore Airport** — Greenwood
+- **Grider Field** — Pine Bluff
+- **Griffiss International Airport** — Rome
+- **Grissom ARB Airport** — Peru
+- **Groton New London Airport** — Groton (New London)
+- **Grundy Municipal Airport** — Grundy
+- **Gulfport Biloxi International Airport** — Gulfport
+- **Gulkana Airport** — Gulkana
+- **Gunnison Crested Butte Regional Airport** — Gunnison
+- **Gustavus Airport** — Gustavus
+- **Guthrie-Edmond Regional Airport** — Guthrie
+- **Guymon Municipal Airport** — Guymon
+- **Gwinnett County Briscoe Field** — Lawrenceville
+- **H H Coffield Regional Airport** — Rockdale
+- **Hagerstown Regional Richard A Henson Field** — Hagerstown
+- **Haines Airport** — Haines
+- **Hale County Airport** — Plainview
+- **Half Moon Bay Airport** — Half Moon Bay
+- **Halifax County Airport** — Roanoke Rapids
+- **Halliburton Field** — Duncan
+- **Hampton Municipal Airport** — Hampton
+- **Hana Airport** — Hana
+- **Hancock County-Bar Harbor Airport** — Bar Harbor
+- **Hanksville Airport** — Hanksville
+- **Hardy Anders Field Natchez Adams County Airport** — Natchez
+- **Harrell Field** — Camden
+- **Harriet Alexander Field** — Salida
+- **Harris County Airport** — Pine Mountain
+- **Harrisburg International Airport** — Harrisburg
+- **Harrisburg Raleigh Airport** — Harrisburg
+- **Harrison County Airport** — Marshall
+- **Harry Clever Field** — New Philadelphia
+- **Harry P Williams Memorial Airport** — Patterson
+- **Harry Reid International Airport** — Las Vegas
+- **Harry Stern Airport** — Wahpeton
+- **Hartford Brainard Airport** — Hartford
+- **Hartness State (Springfield) Airport** — Springfield
+- **Hartsfield Jackson Atlanta International Airport** — Atlanta
+- **Hartsville Regional Airport** — Hartsville
+- **Hastings Municipal Airport** — Hastings
+- **Hattiesburg Bobby L Chain Municipal Airport** — Hattiesburg
+- **Hattiesburg Laurel Regional Airport** — Hattiesburg/Laurel
+- **Havre City County Airport** — Havre
+- **Hawkins Field** — Jackson
+- **Hawthorne Industrial Airport** — Hawthorne
+- **Hays Regional Airport** — Hays
+- **Hayward Executive Airport** — Hayward
+- **Hazleton Municipal Airport** — Hazleton
+- **Hector International Airport** — Fargo
+- **Helena Regional Airport** — Helena
+- **Hemet Ryan Airport** — Hemet
+- **Henderson Executive Airport** — Las Vegas
+- **Henry County Airport** — Paris
+- **Henry Post Army Air Field (Fort Sill)** — Fort Sill
+- **Henry Tift Myers Airport** — Tifton
+- **Herendeen Bay Airport** — Herendeen Bay
+- **Heritage Field** — Pottstown
+- **Hermiston Municipal Airport** — Hermiston
+- **Hesler Noble Field** — Laurel
+- **Hickory Regional Airport** — Hickory
+- **Hill Air Force Base** — Ogden
+- **Hill City Municipal Airport** — Hill City
+- **Hilo International Airport** — Hilo
+- **Hilton Head Airport** — Hilton Head Island
+- **Hobart Regional Airport** — Hobart
+- **Hog River Airport** — Hogatza
+- **Holbrook Municipal Airport** — Holbrook
+- **Hollister Municipal Airport** — Hollister
+- **Holloman Air Force Base** — Alamogordo
+- **Holy Cross Airport** — Holy Cross
+- **Homer Airport** — Homer
+- **Homestead ARB Airport** — Homestead
+- **Honolulu International Airport** — Honolulu
+- **Hoonah Airport** — Hoonah
+- **Hooper Bay Airport** — Hooper Bay
+- **Houghton County Memorial Airport** — Hancock
+- **Houlton International Airport** — Houlton
+- **Houma Terrebonne Airport** — Houma
+- **Hudson Valley Regional Airport** — Poughkeepsie
+- **Hughes Airport** — Hughes
+- **Hunt Field** — Lander
+- **Hunter Army Air Field** — Savannah
+- **Huntingburg Airport** — Huntingburg
+- **Huntsville International Carl T Jones Field** — Huntsville
+- **Huntsville Municipal Airport** — Huntsville
+- **Huron Regional Airport** — Huron
+- **Huslia Airport** — Huslia
+- **Hutchinson County Airport** — Borger
+- **Hutchinson Municipal Airport** — Hutchinson
+- **Icy Bay Airport** — Icy Bay
+- **Ida Grove Municipal Airport** — Ida Grove
+- **Idaho County Airport** — Grangeville
+- **Idaho Falls Regional Airport** — Idaho Falls
+- **Igiugig Airport** — Igiugig
+- **Igor I Sikorsky Memorial Airport** — Bridgeport
+- **Iliamna Airport** — Iliamna
+- **Illinois Valley Regional-Walter A Duncan field** — Peru
+- **Immokalee Regional Airport** — Immokalee
+- **Imperial Beach Nolf (Ream Fld) Airport** — Imperial Beach
+- **Imperial County Airport** — Imperial
+- **Imperial Municipal Airport** — Imperial
+- **Independence Municipal Airport** — Independence
+- **Indian Mountain LRRS Airport** — Utopia Creek
+- **Indiana County/Jimmy Stewart Fld/ Airport** — Indiana
+- **Indianapolis International Airport** — Indianapolis
+- **Ingalls Field** — Hot Springs
+- **Inyokern Airport** — Inyokern
+- **Iowa City Municipal Airport** — Iowa City
+- **Iowa Falls Municipal Airport** — Iowa Falls
+- **Ithaca Tompkins Regional Airport** — Ithaca
+- **Jack Brooks Regional Airport** — Beaumont/Port Arthur
+- **Jack Edwards Airport** — Gulf Shores
+- **Jack Mc Namara Field Airport** — Crescent City
+- **Jack Northrop Field Hawthorne Municipal Airport** — Hawthorne
+- **Jackson County Reynolds Field** — Jackson
+- **Jackson Evers International Airport** — Jackson
+- **Jackson Hole Airport** — Jackson
+- **Jackson Municipal Airport** — Jackson
+- **Jacksonville Executive at Craig Airport** — Jacksonville
+- **Jacksonville International Airport** — Jacksonville
+- **Jacksonville Municipal Airport** — Jacksonville
+- **Jacksonville Naval Air Station** — Jacksonville
+- **Jacqueline Cochran Regional Airport** — Palm Springs
+- **Jaffrey Airport Silver Ranch Airport** — Jaffrey
+- **James M Cox Dayton International Airport** — Dayton
+- **Jamestown Regional Airport** — Jamestown
+- **Jasper County Airport** — Rensselaer
+- **Jasper County-Bell Field** — Jasper
+- **Jefferson City Memorial Airport** — Jefferson City
+- **Jefferson Municipal Airport** — Jefferson
+- **Jim Hamilton L.B. Owens Airport** — Columbia
+- **Jim Kelly Field** — Lexington
+- **Joe Foss Field Airport** — Sioux Falls
+- **John F Kennedy International Airport** — New York
+- **John F Kennedy Memorial Airport** — Ashland
+- **John Glenn Columbus International Airport** — Columbus
+- **John H Batten Airport** — Racine
+- **John Murtha Johnstown Cambria County Airport** — Johnstown
+- **John Wayne Airport-Orange County Airport** — Santa Ana
+- **Johnson County Airport** — Buffalo
+- **Johnson County Executive Airport** — Olathe
+- **Joliet Regional Airport** — Joliet
+- **Jonesboro Municipal Airport** — Jonesboro
+- **Joplin Regional Airport** — Joplin
+- **Jordan Airport** — Jordan
+- **Joslin Field Magic Valley Regional Airport** — Twin Falls
+- **Juneau International Airport** — Juneau
+- **Kahului Airport** — Kahului
+- **Kake Airport** — Kake
+- **Kalaeloa (John Rodgers Field) Airport** — Kapolei
+- **Kalamazoo Battle Creek International Airport** — Kalamazoo
+- **Kalaupapa Airport** — Kalaupapa
+- **Kalskag Airport** — Kalskag
+- **Kaltag Airport** — Kaltag
+- **Kanab Municipal Airport** — Kanab
+- **Kaneohe Bay MCAS (Marion E. Carl Field) Airport** — Kaneohe
+- **Kansas City International Airport** — Kansas City
+- **Kapalua Airport** — Lahaina
+- **Karl Stefan Memorial Airport** — Norfolk
+- **Karluk Airport** — Karluk
+- **Kasigluk Airport** — Kasigluk
+- **Kearney Regional Airport** — Kearney
+- **Keesler Air Force Base** — Biloxi
+- **Kegelman Af Aux Field** — Cherokee
+- **Kemmerer Municipal Airport** — Kemmerer
+- **Kenai Municipal Airport** — Kenai
+- **Kennett Memorial Airport** — Kennett
+- **Kenosha Regional Airport** — Kenosha
+- **Keokuk Municipal Airport** — Keokuk
+- **Kerrville Municipal Louis Schreiner Field** — Kerrville
+- **Ketchikan International Airport** — Ketchikan
+- **Key Field** — Meridian
+- **Key West International Airport** — Key West
+- **Key West Nas /Boca Chica Field/ Airport** — Key West
+- **Kickapoo Downtown Airport** — Wichita Falls
+- **Kimble County Airport** — Junction
+- **King Cove Airport** — King Cove
+- **King Salmon Airport** — King Salmon
+- **Kingman Airport** — Kingman
+- **Kingsville Naval Air Station** — Kingsville
+- **Kinston Regional Jetport At Stallings Field** — Kinston
+- **Kipnuk Airport** — Kipnuk
+- **Kirk Field** — Paragould
+- **Kirksville Regional Airport** — Kirksville
+- **Kirsch Municipal Airport** — Sturgis
+- **Kissimmee Gateway Airport** — Orlando
+- **Kivalina Airport** — Kivalina
+- **Klawock Airport** — Klawock
+- **Knox County Regional Airport** — Rockland
+- **Kobuk Airport** — Kobuk
+- **Kodiak Airport** — Kodiak
+- **Kodiak Municipal Airport** — Kodiak
+- **Kokhanok Airport** — Kokhanok
+- **Kokomo Municipal Airport** — Kokomo
+- **Koliganek Airport** — Koliganek
+- **Kona International At Keahole Airport** — Kailua/Kona
+- **Kongiganak Airport** — Kongiganak
+- **Kosciusko Attala County Airport** — Kosciusko
+- **Kotlik Airport** — Kotlik
+- **Koyuk Alfred Adams Airport** — Koyuk
+- **Koyukuk Airport** — Koyukuk
+- **Kulik Lake Airport** — Kulik Lake
+- **Kwethluk Airport** — Kwethluk
+- **Kwigillingok Airport** — Kwigillingok
+- **Kyle Oakley Field** — Murray
+- **L M Clayton Airport** — Wolf Point
+- **L O Simenstad Municipal Airport** — Osceola
+- **La Crosse Municipal Airport** — La Crosse
+- **La Grande Union County Airport** — La Grande
+- **La Guardia Airport** — New York
+- **La Porte Municipal Airport** — La Porte
+- **Lackland Air Force Base (Kelly Field Annex) Airport** — San Antonio
+- **Laconia Municipal Airport** — Laconia
+- **Ladd AAF Airfield** — Fairbanks/Ft Wainwright
+- **Lafayette Regional Airport** — Lafayette
+- **Lagrange Callaway Airport** — Lagrange
+- **Laguna AAF (Yuma Proving Ground) Airfield** — Yuma Proving Ground(Yuma)
+- **Lake Charles Regional Airport** — Lake Charles
+- **Lake City Gateway Airport** — Lake City
+- **Lake County Airport** — Lakeview
+- **Lake County Airport** — Leadville
+- **Lake County Executive Airport** — Willoughby
+- **Lake Cumberland Regional Airport** — Somerset
+- **Lake Havasu City Airport** — Lake Havasu City
+- **Lake Placid Airport** — Lake Placid
+- **Lake Tahoe Airport** — South Lake Tahoe
+- **Lakefront Airport** — New Orleans
+- **Lakehurst NAES /Maxfield Field** — Lakehurst
+- **Lakeland Linder Regional Airport** — Lakeland
+- **Lakeland-Noble F. Lee Memorial field** — Minocqua-Woodruff
+- **Lamar Municipal Airport** — Lamar
+- **Lambert St Louis International Airport** — St Louis
+- **Lanai Airport** — Lanai City
+- **Lancaster Airport** — Lancaster
+- **Langley Air Force Base** — Hampton
+- **Laramie Regional Airport** — Laramie
+- **Laredo International Airport** — Laredo
+- **Larsen Bay Airport** — Larsen Bay
+- **Las Cruces International Airport** — Las Cruces
+- **Las Vegas Municipal Airport** — Las Vegas
+- **Laughlin Air Force Base** — Del Rio
+- **Laughlin Bullhead International Airport** — Bullhead City
+- **Laurence G Hanscom Field** — Bedford
+- **Laurinburg Maxton Airport** — Maxton
+- **Lawrence County Airpark** — Chesapeake/Huntington Wva
+- **Lawrence J Timmerman Airport** — Milwaukee
+- **Lawrence Municipal Airport** — Lawrence
+- **Lawrenceville Vincennes International Airport** — Lawrenceville
+- **Lawson Army Air Field (Fort Benning)** — Fort Benning(Columbus)
+- **Lawton Fort Sill Regional Airport** — Lawton
+- **Le Mars Municipal Airport** — Le Mars
+- **Lea County Regional Airport** — Hobbs
+- **Lebanon Municipal Airport** — Lebanon
+- **Lee Airport** — Annapolis
+- **Lee C Fine Memorial Airport** — Kaiser Lake Ozark
+- **Lee Gilmer Memorial Airport** — Gainesville
+- **Leesburg International Airport** — Leesburg
+- **Lehigh Valley International Airport** — Allentown
+- **Lemhi County Airport** — Salmon
+- **Lemmon Municipal Airport** — Lemmon
+- **Lemoore Naval Air Station (Reeves Field) Airport** — Lemoore
+- **Lenawee County Airport** — Adrian
+- **Lewis University Airport** — Chicago/Romeoville
+- **Lewiston Nez Perce County Airport** — Lewiston
+- **Lewistown Municipal Airport** — Lewistown
+- **Liberal Mid-America Regional Airport** — Liberal
+- **Lihue Airport** — Lihue
+- **Lima Allen County Airport** — Lima
+- **Limon Municipal Airport** — Limon
+- **Lincoln Airport** — Lincoln
+- **Linden Airport** — Linden
+- **Little Rock Air Force Base** — Jacksonville
+- **Livermore Municipal Airport** — Livermore
+- **Logan Cache Airport** — Logan
+- **Lompoc Airport** — Lompoc
+- **London Corbin Airport Magee Field** — London
+- **Lonely Air Station** — Lonely
+- **Lonesome Pine Airport** — Wise
+- **Long Beach /Daugherty Field/ Airport** — Long Beach
+- **Long Island Mac Arthur Airport** — Islip
+- **Lordsburg Municipal Airport** — Lordsburg
+- **Los Alamos Airport** — Los Alamos
+- **Los Angeles International Airport** — Los Angeles
+- **Los Banos Municipal Airport** — Los Banos
+- **Louis Armstrong New Orleans International Airport** — New Orleans
+- **Louisa County-Freeman field** — Louisa
+- **Louisville Muhammad Ali International Airport** — Louisville
+- **Louisville Winston County Airport** — Louisville
+- **Lovell Field** — Chattanooga
+- **Lowcountry Regional Airport** — Walterboro
+- **Lt Warren Eaton Airport** — Norwich
+- **Lubbock Preston Smith International Airport** — Lubbock
+- **Luke Air Force Base** — Glendale
+- **Lumberton Municipal Airport** — Lumberton
+- **Lusk Municipal Airport** — Lusk
+- **Lynchburg Regional Preston Glenn Field** — Lynchburg
+- **Lyons Rice County Municipal Airport** — Lyons
+- **M. Graham Clark-Taney County Airport** — Point Lookout
+- **MBS International Airport** — Saginaw
+- **MacDill Air Force Base** — Tampa
+- **Mackall Army Air Field** — Camp Mackall
+- **Mackinac Island Airport** — Mackinac Island
+- **Macomb Municipal Airport** — Macomb
+- **Macon Downtown Airport** — Macon
+- **Madera Municipal Airport** — Madera
+- **Madison Municipal Airport** — Madison
+- **Magnolia Municipal Airport** — Magnolia
+- **Mahlon Sweet Field** — Eugene
+- **Majors Airport** — Greenville
+- **Malad City Airport** — Malad City
+- **Malden Regional Airport** — Malden
+- **Mammoth Yosemite Airport** — Mammoth Lakes
+- **Manassas Regional Harry P. Davis field** — Manassas
+- **Manchester Boston Regional Airport** — Manchester
+- **Manhattan Regional Airport** — Manhattan
+- **Manila Municipal Airport** — Manila
+- **Manistee Co Blacker Airport** — Manistee
+- **Manitowoc County Airport** — Manitowoc
+- **Mankato Regional Airport** — Mankato
+- **Manley Hot Springs Airport** — Manley Hot Springs
+- **Manokotak Airport** — Manokotak
+- **Mansfield Lahm Regional Airport** — Mansfield
+- **Marana Regional Airport** — Tucson
+- **March ARB Airport** — Riverside
+- **Marco Island Airport** — Marco Island
+- **Marfa Municipal Airport** — Marfa
+- **Marina Municipal Airport** — Marina
+- **Marion County Brown Field** — Jasper
+- **Marion County Rankin Fite Airport** — Hamilton
+- **Marion County Regional Airport** — Flippin
+- **Marion Municipal Airport** — Marion
+- **Mariposa Yosemite Airport** — Mariposa
+- **Marlboro County Jetport H.E. Avent Field** — Bennettsville
+- **Marshall Army Air Field** — Fort Riley(Junction City)
+- **Marshall Don Hunter Sr Airport** — Marshall
+- **Marshall Memorial Municipal Airport** — Marshall
+- **Marshalltown Municipal Airport** — Marshalltown
+- **Marshfield Municipal Airport** — Marshfield
+- **Martha&#39;s Vineyard Airport** — Martha&#39;s Vineyard
+- **Martin State Airport** — Baltimore
+- **Mason City Municipal Airport** — Mason City
+- **Mason County Airport** — Ludington
+- **Massena International Richards Field** — Massena
+- **Maury County Airport** — Columbia/Mount Pleasant
+- **Maxwell Air Force Base** — Montgomery
+- **Mayport Ns (Adm David L. Mcdonald Field) Airport** — Mayport
+- **Mc Alester Regional Airport** — Mc Alester
+- **Mc Allen Miller International Airport** — Mc Allen
+- **Mc Call Municipal Airport** — Mc Call
+- **Mc Carthy Airport** — Mccarthy
+- **Mc Clellan Airfield** — Sacramento
+- **Mc Clellan-Palomar Airport** — Carlsbad
+- **Mc Comb/Pike County/John E Lewis Field** — Mc Comb
+- **Mc Connell Air Force Base** — Wichita
+- **Mc Cook Ben Nelson Regional Airport** — Mc Cook
+- **Mc Entire JNGB Airport** — Eastover
+- **Mc Guire Air Force Base** — Wrightstown
+- **Mc Kellar Sipes Regional Airport** — Jackson
+- **Mc Kinley National Park Airport** — Mckinley Park
+- **Mc Pherson Airport** — Mc Pherson
+- **McChord Air Force Base** — Tacoma
+- **McGhee Tyson Airport** — Knoxville
+- **McGrath Airport** — McGrath
+- **McMinn County Airport** — Athens
+- **McNary Field** — Salem
+- **Meadows Field** — Bakersfield
+- **Mefford Field** — Tulare
+- **Mekoryuk Airport** — Mekoryuk
+- **Melbourne Orlando International Airport** — Melbourne
+- **Memorial Field** — Hot Springs
+- **Memphis International Airport** — Memphis
+- **Menominee Regional Airport** — Menominee
+- **Merced Regional Macready Field** — Merced
+- **Mercer County Airport** — Bluefield
+- **Merle K (Mudhole) Smith Airport** — Cordova
+- **Merrill Field** — Anchorage
+- **Merrill Municipal Airport** — Merrill
+- **Merritt Island Airport** — Merritt Island
+- **Mesa Del Rey Airport** — King City
+- **Metropolitan Oakland International Airport** — Oakland
+- **Mettel Field** — Connersville
+- **Miami Executive Airport** — Miami
+- **Miami International Airport** — Miami
+- **Miami Municipal Airport** — Miami
+- **Miami University Airport** — Oxford
+- **Miami-Opa Locka Executive Airport** — Miami
+- **Michael AAF (Dugway Proving Ground) Airport** — Dugway Proving Ground
+- **Michigan City Municipal Airport** — Michigan City
+- **Mid Ohio Valley Regional Airport** — Parkersburg
+- **Mid State Airport** — Philipsburg
+- **Mid-Carolina Regional Airport** — Salisbury
+- **Middle Georgia Regional Airport** — Macon
+- **Middleton Island Airport** — Middleton Island
+- **Middletown Regional-Hook Field Municipal Airport** — Middletown
+- **Midland Airpark** — Midland
+- **Midland International Air and Space Port Airport** — Midland
+- **Mifflin County Airport** — Reedsville
+- **Miley Memorial Field** — Big Piney
+- **Milford Municipal-Ben and Judy Briscoe Field** — Milford
+- **Millard Airport** — Omaha
+- **Miller Field** — Valentine
+- **Millington Regional Jetport Airport** — Millington
+- **Millinocket Municipal Airport** — Millinocket
+- **Millville Municipal Airport** — Millville
+- **Minchumina Airport** — Minchumina
+- **Minden Tahoe Airport** — Minden
+- **Mineral Wells Airport** — Mineral Wells
+- **Minneapolis-St Paul International/Wold-Chamberlain Airport** — Minneapolis
+- **Minot Air Force Base** — Minot
+- **Minot International Airport** — Minot
+- **Minute Man Air Field** — Stow
+- **Miramar Marine Corps Air Station** — San Diego
+- **Mission Field** — Livingston
+- **Missoula International Airport** — Missoula
+- **Mitchell Municipal Airport** — Mitchell
+- **Mobile Downtown Airport** — Mobile
+- **Mobile Regional Airport** — Mobile
+- **Mobridge Municipal Airport** — Mobridge
+- **Modesto City Co-Harry Sham Field** — Modesto
+- **Moffett Federal Airfield** — Mountain View
+- **Mojave Airport** — Mojave
+- **Molokai Airport** — Kaunakakai
+- **Mondell Field** — Newcastle
+- **Monmouth Executive Airport** — Belmar/Farmingdale
+- **Monroe County Airport** — Bloomington
+- **Monroe County Airport** — Monroeville
+- **Monroe Regional Airport** — Monroe
+- **Montague-Yreka Rohrer Field** — Montague
+- **Montauk Airport** — Montauk
+- **Monterey Peninsula Airport** — Monterey
+- **Montevideo Chippewa County Airport** — Montevideo
+- **Montgomery County Airpark** — Gaithersburg
+- **Montgomery Field** — San Diego
+- **Montgomery Regional (Dannelly Field) Airport** — Montgomery
+- **Monticello Regional Airport** — Monticello
+- **Montrose Regional Airport** — Montrose
+- **Moody Air Force Base** — Valdosta
+- **Moore County Airport** — Pinehurst/Southern Pines
+- **Moore Murrell Airport** — Morristown
+- **Morgantown Municipal Walter L. Bill Hart Field** — Morgantown
+- **Morris Municipal - Charlie Schmidt Airport** — Morris
+- **Morristown Municipal Airport** — Morristown
+- **Morrisville Stowe State Airport** — Morrisville
+- **Moultrie Municipal Airport** — Moultrie
+- **Mount Pleasant Municipal Airport** — Mount Pleasant
+- **Mount Pleasant Regional Airport** — Mount Pleasant
+- **Mount Vernon Airport** — Mount Vernon
+- **Mount Washington Regional Airport** — Whitefield
+- **Mountain Home Air Force Base** — Mountain Home
+- **Mountain Village Airport** — Mountain Village
+- **Muir Army Air Field (Fort Indiantown Gap) Airport** — Fort Indiantown Gap(Annville)
+- **Murray Field** — Eureka
+- **Muscatine Municipal Airport** — Muscatine
+- **Muskegon County Airport** — Muskegon
+- **Myrtle Beach International Airport** — Myrtle Beach
+- **Nantucket Memorial Airport** — Nantucket
+- **Napa County Airport** — Napa
+- **Napakiak Airport** — Napakiak
+- **Napaskiak Airport** — Napaskiak
+- **Naples Municipal Airport** — Naples
+- **Nartron Field** — Reed City
+- **Nashville International Airport** — Nashville
+- **Needles Airport** — Needles
+- **Neil Armstrong Airport** — Wapakoneta
+- **Nellis Air Force Base** — Las Vegas
+- **Nelson Lagoon Airport** — Nelson Lagoon
+- **Nenana Municipal Airport** — Nenana
+- **Neosho Hugh Robinson Airport** — Neosho
+- **Nervino Airport** — Beckwourth
+- **Nevada Municipal Airport** — Nevada
+- **New Bedford Regional Airport** — New Bedford
+- **New Castle Airport** — Wilmington
+- **New Century Aircenter Airport** — Olathe
+- **New Orleans Nas Jrb/Alvin Callender Field/ Airport** — New Orleans
+- **New Richmond Regional Airport** — New Richmond
+- **New River Valley Airport** — Dublin
+- **New Stuyahok Airport** — New Stuyahok
+- **New Ulm Municipal Airport** — New Ulm
+- **New York Skyports Seaplane Base** — New York
+- **Newark Liberty International Airport** — Newark
+- **Newport Municipal Airport** — Newport
+- **Newport News Williamsburg International Airport** — Newport News
+- **Newport State Airport** — Newport
+- **Newtok Airport** — Newtok
+- **Newton City-County Airport** — Newton
+- **Newton Municipal Airport** — Newton
+- **Niagara Falls International Airport** — Niagara Falls
+- **Nightmute Airport** — Nightmute
+- **Nikolai Airport** — Nikolai
+- **Nikolski Air Station** — Nikolski
+- **Noatak Airport** — Noatak
+- **Nogales International Airport** — Nogales
+- **Nome Airport** — Nome
+- **Nondalton Airport** — Nondalton
+- **Norfolk International Airport** — Norfolk
+- **Norfolk Ns (Chambers Fld) Airport** — Norfolk
+- **Norman Y. Mineta San Jose International Airport** — San Jose
+- **North Central State Airport** — Pawtucket
+- **North Central West Virginia Airport** — Clarksburg
+- **North Island Naval Air Station-Halsey Field** — San Diego
+- **North Las Vegas Airport** — Las Vegas
+- **North Perry Airport** — Hollywood
+- **North Platte Regional Airport Lee Bird Field** — North Platte
+- **North Texas Rgnl/Perrin Field** — Sherman/Denison
+- **Northeast Alabama Regional Airport** — Gadsden
+- **Northeast Florida Regional Airport** — St Augustine
+- **Northeast Iowa Regional Airport** — Charles City
+- **Northeast Kingdom International Airport** — Newport
+- **Northeast Ohio Regional Airport** — Ashtabula
+- **Northeast Philadelphia Airport** — Philadelphia
+- **Northeast Wyoming Regional Airport** — Gillette
+- **Northeastern Regional Airport** — Edenton
+- **Northern Aroostook Regional Airport** — Frenchville
+- **Northern Colorado Regional Airport** — Fort Collins/Loveland
+- **Northway Airport** — Northway
+- **Northwest Alabama Regional Airport** — Muscle Shoals
+- **Northwest Arkansas Regional Airport** — Fayetteville/Springdale/
+- **Northwest Florida Beaches International Airport** — Panama City Beach
+- **Norwood Memorial Airport** — Norwood
+- **Nuiqsut Airport** — Nuiqsut
+- **Nulato Airport** — Nulato
+- **Oakdale Airport** — Oakdale
+- **Oakland County International Airport** — Pontiac
+- **Ocala International Jim Taylor Field** — Ocala
+- **Ocean City Municipal Airport** — Ocean City
+- **Ocean County Airport** — Toms River
+- **Oceana Nas /Apollo Soucek Field/ Station** — Virginia Beach
+- **Oceanside Municipal Airport** — Oceanside
+- **Oconee County Regional Airport** — Clemson
+- **Offutt Air Force Base** — Omaha
+- **Ogden Hinckley Airport** — Ogden
+- **Ogdensburg International Airport** — Ogdensburg
+- **Ohio State University Airport** — Columbus
+- **Ohio University Snyder Field** — Athens/Albany
+- **Okeechobee County Airport** — Okeechobee
+- **Okmulgee Regional Airport** — Okmulgee
+- **Olive Branch Airport** — Olive Branch
+- **Olney Municipal Airport** — Olney
+- **Olney Noble Airport** — Olney-Noble
+- **Olympia Regional Airport** — Olympia
+- **Omak Airport** — Omak
+- **Omar N Bradley Airport** — Moberly
+- **Ontario International Airport** — Ontario
+- **Ontario Municipal Airport** — Ontario
+- **Orange County Airport** — Montgomery
+- **Orangeburg Municipal Airport** — Orangeburg
+- **Orcas Island Airport** — Eastsound
+- **Orlando Executive Airport** — Orlando
+- **Orlando International Airport** — Orlando
+- **Orlando Sanford International Airport** — Orlando
+- **Oroville Municipal Airport** — Oroville
+- **Oscoda Wurtsmith Airport** — Oscoda
+- **Oskaloosa Municipal Airport** — Oskaloosa
+- **Ottumwa Regional Airport** — Ottumwa
+- **Outlaw Field** — Clarksville
+- **Owatonna Degner Regional Airport** — Owatonna
+- **Owensboro Daviess County Airport** — Owensboro
+- **Oxnard Airport** — Oxnard
+- **Ozark Regional Airport** — Mountain Home
+- **Ozona Municipal Airport** — Ozona
+- **Pacific City State Airport** — Pacific City
+- **Page Field** — Fort Myers
+- **Page Municipal Airport** — Page
+- **Palacios Municipal Airport** — Palacios
+- **Palestine Municipal Airport** — Palestine
+- **Palm Beach Co Glades Airport** — Pahokee
+- **Palm Beach County Park Airport** — West Palm Beach
+- **Palm Beach International Airport** — West Palm Beach
+- **Palm Springs International Airport** — Palm Springs
+- **Palmdale Regional/USAF Plant 42 Airport** — Palmdale
+- **Palmer Municipal Airport** — Palmer
+- **Palo Alto Airport of Santa Clara County** — Palo Alto
+- **Panama City-Bay Co International Airport** — Panama City
+- **Pangborn Memorial Airport** — Wenatchee
+- **Park Falls Municipal Airport** — Park Falls
+- **Park Rapids Municipal Konshok Field** — Park Rapids
+- **Park Township Airport** — Holland
+- **Paso Robles Municipal Airport** — Paso Robles
+- **Patrick Air Force Base** — Cocoa Beach
+- **Patrick Leahy Burlington International Airport** — Burlington
+- **Patuxent River Naval Air Station/Trapnell Field Aiport** — Patuxent River
+- **Payson Airport** — Payson
+- **Pecos Municipal Airport** — Pecos
+- **Pellston Regional Airport of Emmet County Airport** — Pellston
+- **Pembina Municipal Airport** — Pembina
+- **Penn Valley Airport** — Selinsgrove
+- **Pensacola Naval Air Station/Forrest Sherman field** — Pensacola
+- **Pensacola Regional Airport** — Pensacola
+- **Perry Foley Airport** — Perry
+- **Perry Lefors Field** — Pampa
+- **Perry Municipal Airport** — Perry
+- **Perry Stokes Airport** — Trinidad
+- **Perryville Airport** — Perryville
+- **Peter O Knight Airport** — Tampa
+- **Petersburg James A Johnson Airport** — Petersburg
+- **Petit Jean Park Airport** — Morrilton
+- **Phifer Airfield** — Wheatland
+- **Philadelphia International Airport** — Philadelphia
+- **Philip Airport** — Philip
+- **Philip Billard Municipal Airport** — Topeka
+- **Phillips Army Air Field** — Aberdeen Proving Grounds(Aberdeen)
+- **Phoenix Deer Valley Airport** — Phoenix
+- **Phoenix Goodyear Airport** — Goodyear
+- **Phoenix Sky Harbor International Airport** — Phoenix
+- **Phoenix-Mesa-Gateway Airport** — Phoenix
+- **Pickens County Airport** — Pickens
+- **Piedmont Triad International Airport** — Greensboro
+- **Pierre Regional Airport** — Pierre
+- **Pike County-Hatcher Field** — Pikeville
+- **Pilot Point Airport** — Pilot Point
+- **Pinal Airpark** — Marana
+- **Pine Island Airport** — Corolla
+- **Pine Ridge Airport** — Pine Ridge
+- **Pitt Greenville Airport** — Greenville
+- **Pittsburgh International Airport** — Pittsburgh
+- **Pittsburgh/Butler Regional Airport** — Butler
+- **Pittsfield Municipal Airport** — Pittsfield
+- **Placerville Airport** — Placerville
+- **Platinum Airport** — Platinum
+- **Plattsburgh International Airport** — Plattsburgh
+- **Plymouth Municipal Airport** — Plymouth
+- **Pocahontas Municipal Airport** — Pocahontas
+- **Pocatello Regional Airport** — Pocatello
+- **Pocono Mountains Municipal Airport** — Mount Pocono
+- **Point Hope Airport** — Point Hope
+- **Point Lay Lrrs Airport** — Point Lay
+- **Point Mugu Naval Air Station (Naval Base Ventura Co)** — Point Mugu
+- **Polk Army Air Field** — Fort Polk
+- **Pompano Beach Airpark** — Pompano Beach
+- **Ponca City Regional Airport** — Ponca City
+- **Pope Air Force Base** — Fayetteville
+- **Pope Field** — Greenfield
+- **Poplar Bluff Regional Business Airport** — Poplar Bluff
+- **Port Allen Airport** — Hanapepe
+- **Port Alsworth Airport** — Port Alsworth
+- **Port Clarence Coast Guard Station** — Port Clarence
+- **Port Heiden Airport** — Port Heiden
+- **Port Meadville Airport** — Meadville
+- **Port Moller Airport** — Cold Bay
+- **Portage Creek Airport** — Portage Creek
+- **Porter County Municipal Airport** — Valparaiso
+- **Porterville Municipal Airport** — Porterville
+- **Portland Hillsboro Airport** — Portland
+- **Portland International Airport** — Portland
+- **Portland International Jetport Airport** — Portland
+- **Portland Troutdale Airport** — Portland
+- **Portsmouth International at Pease Airport** — Portsmouth
+- **Potomac Airfield** — Friendly
+- **Powell Municipal Airport** — Powell
+- **Prairie Du Chien Municipal Airport** — Prairie Du Chien
+- **Pratt Industrial Airport** — Pratt
+- **Presque Isle International Airport** — Presque Isle
+- **Princeton Municipal Airport** — Princeton
+- **Prospect Creek Airport** — Prospect Creek
+- **Provincetown Municipal Airport** — Provincetown
+- **Provo Municipal Airport** — Provo
+- **Pryor Field Regional Airport** — Decatur
+- **Pueblo Memorial Airport** — Pueblo
+- **Pullman Moscow Regional Airport** — Pullman/Moscow
+- **Punta Gorda Airport** — Punta Gorda
+- **Purdue University Airport** — Lafayette
+- **Quad City International Airport** — Moline
+- **Quakertown Airport** — Quakertown
+- **Quantico MCAF /Turner field** — Quantico
+- **Quillayute Airport** — Quillayute
+- **Quincy Regional Baldwin Field** — Quincy
+- **Quinhagak Airport** — Quinhagak
+- **Quonset State Airport** — North Kingstown
+- **Raleigh County Memorial Airport** — Beckley
+- **Raleigh Durham International Airport** — Raleigh/Durham
+- **Ralph M Calhoun Memorial Airport** — Tanana
+- **Ralph Wenz Field** — Pinedale
+- **Ralph Wien Memorial Airport** — Kotzebue
+- **Randolph Air Force Base** — Universal City
+- **Range Regional Airport** — Hibbing
+- **Rapid City Regional Airport** — Rapid City
+- **Raton Municipal-Crews Field** — Raton
+- **Rawlins Municipal Harvey Field** — Rawlins
+- **Reading Regional Carl A Spaatz Field** — Reading
+- **Red Bluff Municipal Airport** — Red Bluff
+- **Red Dog Airport** — Red Dog
+- **Redding Municipal Airport** — Redding
+- **Redstone Army Air Field** — Redstone Arsnl Huntsville
+- **Redwood Falls Municipal Airport** — Redwood Falls
+- **Reid Hillview of Santa Clara County Airport** — San Jose
+- **Renner Field-Goodland Municipal Airport** — Goodland
+- **Reno Tahoe International Airport** — Reno
+- **Renton Municipal Airport** — Renton
+- **Republic Airport** — Farmingdale
+- **Rexburg Madison County Airport** — Rexburg
+- **Rhinelander Oneida County Airport** — Rhinelander
+- **Rhode Island TF Green International Airport** — Providence
+- **Rice Lake Regional Carl&#39;s Field** — Rice Lake
+- **Richard B Russell Airport** — Rome
+- **Richard I Bong Airport** — Superior
+- **Richfield Municipal Airport** — Richfield
+- **Richland Airport** — Richland
+- **Richmond International Airport** — Richmond
+- **Richmond Municipal Airport** — Richmond
+- **Rick Husband Amarillo International Airport** — Amarillo
+- **Rickenbacker International Airport** — Columbus
+- **Rinkenberger Restricted Landing Area** — Bradford
+- **Riverside Municipal Airport** — Riverside
+- **Roanoke Regional Woodrum Field** — Roanoke
+- **Roben Hood Airport** — Big Rapids
+- **Robert (Bob) Curtis Memorial Airport** — Noorvik
+- **Robert F Swinnie Airport** — Andrews
+- **Robert Gray  Army Air Field Airport** — Fort Cavazos/Killeen
+- **Robert S Kerr Airport** — Poteau
+- **Roberts Field** — Redmond
+- **Robins Air Force Base** — Warner Robins
+- **Rochester International Airport** — Rochester
+- **Rock Hill York Co Bryant field** — Rock Hill
+- **Rockwood Municipal Airport** — Rockwood
+- **Rocky Mount Wilson Regional Airport** — Rocky Mount
+- **Rocky Mountain Metropolitan Airport** — Denver
+- **Rogers Executive Airport** — Rogers
+- **Rogue Valley International Medford Airport** — Medford
+- **Rolla National Airport** — Rolla/Vichy
+- **Rome State Airport** — Rome
+- **Ronald Reagan Washington National Airport** — Washington
+- **Rooke Field** — Refugio
+- **Roscoe Turner Airport** — Corinth
+- **Roscommon County - Blodgett Memorial Airport** — Houghton Lake
+- **Roseau Municipal Rudy Billberg Field** — Roseau
+- **Roseburg Regional Airport** — Roseburg
+- **Rosecrans Memorial Airport** — St Joseph
+- **Roswell International Air Center Airport** — Roswell
+- **Roundup Airport** — Roundup
+- **Ruby Airport** — Ruby
+- **Russell Municipal Airport** — Russell
+- **Russian Mission Airport** — Russian Mission
+- **Ruston Regional Airport** — Ruston
+- **Rutland - Southern Vermont Regional Airport** — Rutland
+- **Sacramento Executive Airport** — Sacramento
+- **Sacramento International Airport** — Sacramento
+- **Sacramento Mather Airport** — Sacramento
+- **Safford Regional Airport** — Safford
+- **Salem Leckrone Airport** — Salem
+- **Salina Municipal Airport** — Salina
+- **Salinas Municipal Airport** — Salinas
+- **Salisbury Ocean City Wicomico Regional Airport** — Salisbury
+- **Salt Lake City International Airport** — Salt Lake City
+- **Salton Sea Airport** — Salton City
+- **Sampson County Airport** — Clinton
+- **Samuels Field** — Bardstown
+- **San Angelo Regional Mathis Field** — San Angelo
+- **San Antonio International Airport** — San Antonio
+- **San Bernardino International Airport** — San Bernardino
+- **San Carlos Airport** — San Carlos
+- **San Diego International Airport** — San Diego
+- **San Francisco International Airport** — San Francisco
+- **San Gabriel Valley Airport** — El Monte
+- **San Luis County Regional Airport** — San Luis Obispo
+- **San Luis Valley Regional Bergman Field** — Alamosa
+- **Sand Point Airport** — Sand Point
+- **Sanderson Field** — Shelton
+- **Sanford Regional Airport** — Sanford
+- **Santa Barbara Municipal Airport** — Santa Barbara
+- **Santa Cruz Island Airport** — Santa Barbara
+- **Santa Fe Municipal Airport** — Santa Fe
+- **Santa Maria Pub/Capt G Allan Hancock Field** — Santa Maria
+- **Santa Monica Municipal Airport** — Santa Monica
+- **Santa Paula Airport** — Santa Paula
+- **Santa Ynez Airport** — Santa Ynez
+- **Sarasota Bradenton International Airport** — Sarasota/Bradenton
+- **Saufley Field Nolf Airport** — Pensacola
+- **Savannah Hilton Head International Airport** — Savannah
+- **Savoonga Airport** — Savoonga
+- **Sawyer County Airport** — Hayward
+- **Sawyer International Airport** — Marquette
+- **Scammon Bay Airport** — Scammon Bay
+- **Schenck Field** — Clarinda
+- **Schenectady County Airport** — Schenectady
+- **Scholes International At Galveston Airport** — Galveston
+- **Schoolcraft County Airport** — Manistique
+- **Scott AFB/Midamerica Airport** — Belleville
+- **Scottsdale Airport** — Scottsdale
+- **Scribner State Airport** — Scribner
+- **Searcy Municipal Airport** — Searcy
+- **Searle Field** — Ogallala
+- **Seattle Tacoma International Airport** — Seattle
+- **Sebring Regional Airport** — Sebring
+- **Sedalia Memorial Airport** — Sedalia
+- **Sedona Airport** — Sedona
+- **Selawik Airport** — Selawik
+- **Seldovia Airport** — Seldovia
+- **Selfridge Angb Airport** — Mount Clemens
+- **Selfs Airport** — Marks
+- **Seward Airport** — Seward
+- **Seymour Johnson Air Force Base** — Goldsboro
+- **Shafter Minter Field** — Shafter
+- **Shageluk Airport** — Shageluk
+- **Shaktoolik Airport** — Shaktoolik
+- **Shalz Field** — Colby
+- **Sharp County Regional Airport** — Ash Flat
+- **Shaw Air Force Base** — Sumter
+- **Shawnee Regional Airport** — Shawnee
+- **Sheboygan County Memorial Airport** — Sheboygan
+- **Sheep Mountain Airport** — Sheep Mountain
+- **Shelby Airport** — Shelby
+- **Shenandoah Valley Regional Airport** — Staunton/Waynesboro/Harrisonburg
+- **Sheppard Air Force Base-Wichita Falls Municipal Airport** — Wichita Falls
+- **Sher Wood Airport** — Plentywood
+- **Sheridan County Airport** — Sheridan
+- **Sherman Army Air Field** — Fort Leavenworth
+- **Shishmaref Airport** — Shishmaref
+- **Shively Field** — Saratoga
+- **Show Low Regional Airport** — Show Low
+- **Shreveport Downtown Airport** — Shreveport
+- **Shreveport Regional Airport** — Shreveport
+- **Shungnak Airport** — Shungnak
+- **Sidney Municipal-Lloyd W Carr Field** — Sidney
+- **Sidney Richland Municipal Airport** — Sidney
+- **Sierra Blanca Regional Airport** — Ruidoso
+- **Sierra Vista Municipal Libby Army Air Field** — Fort Huachuca Sierra Vista
+- **Sikeston Memorial Municipal Airport** — Sikeston
+- **Simmons Army Air Field** — Fort Bragg
+- **Sioux Gateway Col. Bud Day Field** — Sioux City
+- **Siskiyou County Airport** — Montague
+- **Sitka Rocky Gutierrez Airport** — Sitka
+- **Skagit Regional Airport** — Burlington/Mount Vernon
+- **Skagway Airport** — Skagway
+- **Skwentna Airport** — Skwentna
+- **Skylark Field** — Killeen
+- **Skypark Airport** — Bountiful
+- **Slayton Municipal Airport** — Slayton
+- **Sleetmute Airport** — Sleetmute
+- **Sloulin Field International Airport** — Williston
+- **Smith Field** — Fort Wayne
+- **Smith Field** — Siloam Springs
+- **Smith Reynolds Airport** — Winston Salem
+- **Smyrna Airport** — Smyrna
+- **Snohomish County (Paine Field) Airport** — Everett
+- **Socorro Municipal Airport** — Socorro
+- **Soldotna Airport** — Soldotna
+- **South Arkansas Regional At Goodwin Field** — El Dorado
+- **South Bend Regional Airport** — South Bend
+- **South Big Horn County Airport** — Greybull
+- **South Jersey Regional Airport** — Mount Holly
+- **South Naknek Nr 2 Airport** — South Naknek
+- **Southeast Iowa Regional Airport** — Burlington
+- **Southern California Logistics Airport** — Victorville
+- **Southern Illinois Airport** — Carbondale/Murphysboro
+- **Southern Seaplane Airport** — Belle Chasse
+- **Southern Wisconsin Regional Airport** — Janesville
+- **Southwest Florida International Airport** — Fort Myers
+- **Southwest Georgia Regional Airport** — Albany
+- **Southwest Michigan Regional Airport** — Benton Harbor
+- **Southwest Minnesota Regional-Marshall-Ryan Field** — Marshall
+- **Southwest Oregon Regional Airport** — North Bend
+- **Southwest Washington Regional Airport** — Kelso
+- **Southwest Wyoming Regional Airport** — Rock Springs
+- **Space Coast Regional Airport** — Titusville
+- **Sparrevohn LRRS Airport** — Sparrevohn
+- **Sparta Community Hunter Field** — Sparta
+- **Sparta Fort Mc Coy Airport** — Sparta
+- **Spartanburg Downtown Memorial Airport** — Spartanburg
+- **Spence Airport** — Moultrie
+- **Spencer Municipal Airport** — Spencer
+- **Spirit of St Louis Airport** — St Louis
+- **Spokane International Airport** — Spokane
+- **Springdale Municipal Airport** — Springdale
+- **Springfield Beckley Municipal Airport** — Springfield
+- **Springfield Branson National Airport** — Springfield
+- **St Clair County Airport** — Pell City
+- **St Clair County International Airport** — Port Huron
+- **St Cloud Regional Airport** — St Cloud
+- **St George Airport** — St George
+- **St George Municipal Airport** — St George
+- **St Johns Industrial Air Park** — St Johns
+- **St Landry Parish Ahart Field** — Opelousas
+- **St Louis Downtown Airport** — Cahokia/St Louis
+- **St Louis Regional Airport** — Alton/St Louis
+- **St Mary&#39;s Airport** — St Mary&#39;s
+- **St Marys Municipal Airport** — St Marys
+- **St Michael Airport** — St Michael
+- **St Paul Downtown Holman Field** — St Paul
+- **St Paul Island Airport** — St Paul Island
+- **St Petersburg Clearwater International Airport** — St Petersburg-Clearwater
+- **St. Simons Island Airport at McKinnon Field** — Brunswick
+- **Stan Stamper Municipal Airport** — Hugo
+- **Stanton Airfield** — Stanton
+- **State College Regional Airport** — State College
+- **Statesboro Bulloch County Airport** — Statesboro
+- **Statesville Regional Airport** — Statesville
+- **Steamboat Springs Bob Adams Field** — Steamboat Springs
+- **Stephens County Airport** — Breckenridge
+- **Stephenville Clark Regional Airport** — Stephenville
+- **Sterling Municipal Airport** — Sterling
+- **Stevens Field** — Pagosa Springs
+- **Stevens Point Municipal Airport** — Stevens Point
+- **Stewart International Airport** — Newburgh
+- **Stillwater Regional Airport** — Stillwater
+- **Stinson Municipal Airport** — San Antonio
+- **Stockton Metropolitan Airport** — Stockton
+- **Storm Lake Municipal Airport** — Storm Lake
+- **Strother Field** — Winfield/Arkansas City
+- **Stroud Municipal Airport** — Stroud
+- **Stuttgart Municipal Airport** — Stuttgart
+- **Sugar Land Regional Airport** — Houston
+- **Sullivan County Airport** — Sullivan
+- **Sullivan County International Airport** — Monticello
+- **Sulphur Springs Municipal Airport** — Sulphur Springs
+- **Summit Airport** — Summit
+- **Sumter Airport** — Sumter
+- **Sunriver Airport** — Sunriver
+- **Susanville Municipal Airport** — Susanville
+- **Sylvester Airport** — Sylvester
+- **Syracuse Hancock International Airport** — Syracuse
+- **TSTC Waco Airport** — Waco
+- **Tacoma Narrows Airport** — Tacoma
+- **Tahneta Pass Airport** — Tahneta Pass Lodge
+- **Talkeetna Airport** — Talkeetna
+- **Talladega Municipal Airport** — Talladega
+- **Tallahassee Regional Airport** — Tallahassee
+- **Tampa International Airport** — Tampa
+- **Taos Regional Airport** — Taos
+- **Tatalina LRRS Airport** — Takotna
+- **Taylor Airport** — Taylor
+- **Taylor County Airport** — Medford
+- **Ted Stevens Anchorage International Airport** — Anchorage
+- **Tehachapi Municipal Airport** — Tehachapi
+- **Telfair Wheeler Airport** — Mc Rae
+- **Teller Airport** — Teller
+- **Telluride Regional Airport** — Telluride
+- **Terre Haute International Hulman Field** — Terre Haute
+- **Terrell Municipal Airport** — Terrell
+- **Teterboro Airport** — Teterboro
+- **Texarkana Regional Webb Field** — Texarkana
+- **Texas Gulf Coast Regional Airport** — Angleton/Lake Jackson
+- **The Eastern Iowa Airport** — Cedar Rapids
+- **The Florida Keys Marathon Airport** — Marathon
+- **The O&#39;Neill Municipal John L Baker Field** — O&#39;Neill
+- **Thief River Falls Regional Airport** — Thief River Falls
+- **Thomas C Russell Field** — Alexander City
+- **Thomasville Regional Airport** — Thomasville
+- **Thompson Falls Airport** — Thompson Falls
+- **Thompson Robbins Airport** — Helena/West Helena
+- **Three Rivers Municipal Dr Haines Airport** — Three Rivers
+- **Tillamook Airport** — Tillamook
+- **Tin City Long Range Radar Station Airport** — Tin City
+- **Tinker Air Force Base** — Oklahoma City
+- **Tipton Airport** — Fort Meade(Odenton)
+- **Toccoa Rg Letourneau Field** — Toccoa
+- **Togiak Airport** — Togiak Village
+- **Tok Junction Airport** — Tok
+- **Toksook Bay Airport** — Toksook Bay
+- **Toledo Executive Airport** — Toledo
+- **Toledo Express Airport** — Toledo
+- **Tonopah Airport** — Tonopah
+- **Tonopah Test Range Airport** — Tonopah
+- **Topeka Regional Airport** — Topeka
+- **Torrington Municipal Airport** — Torrington
+- **Town of East Hampton Airport** — East Hampton
+- **Tradewind Airport** — Amarillo
+- **Travis Air Force Base** — Fairfield
+- **Treasure Coast International Airport** — Fort Pierce
+- **Trent Lott International Airport** — Pascagoula
+- **Trenton Mercer Airport** — Trenton
+- **Trenton Municipal Airport** — Trenton
+- **Tri Cities Airport** — Pasco
+- **Tri Cities Regional Tn Va Airport** — Bristol/Johnson/Kingsport
+- **Tri City Airport** — Parsons
+- **Tri State Steuben County Airport** — Angola
+- **Tri-County Regional Airport** — Lone Rock
+- **Tri-State/Milton J. Ferguson Field** — Huntington
+- **Triangle North Executive Airport** — Louisburg
+- **Troy Municipal Airport** — Troy
+- **Truckee Tahoe Airport** — Truckee
+- **Truth Or Consequences Municipal Airport** — Truth Or Consequences
+- **Tucson International Airport** — Tucson
+- **Tucumcari Municipal Airport** — Tucumcari
+- **Tullahoma Regional Arpt/Wm Northern Field** — Tullahoma
+- **Tulsa International Airport** — Tulsa
+- **Tulsa Riverside Airport** — Tulsa
+- **Tunica Municipal Airport** — Tunica
+- **Tupelo Regional Airport** — Tupelo
+- **Tuscaloosa Regional Airport** — Tuscaloosa
+- **Tuscola Area Airport** — Caro
+- **Tweed New Haven Airport** — New Haven
+- **Twentynine Palms Airport** — Twentynine Palms
+- **Tyler Pounds Regional Airport** — Tyler
+- **Tyndall Air Force Base** — Panama City
+- **USAF Academy Airfield** — Colorado Springs
+- **Ugnu-Kuparuk Airport** — Kuparuk
+- **Ukiah Municipal Airport** — Ukiah
+- **Umiat Airport** — Umiat
+- **Unalakleet Airport** — Unalakleet
+- **Unalaska Airport** — Unalaska
+- **University Oxford Airport** — Oxford
+- **University of Illinois Willard Airport** — Champaign/Urbana
+- **University of Oklahoma Westheimer Airport** — Norman
+- **Upolu Airport** — Hawi
+- **Valdez Pioneer Field** — Valdez
+- **Valdosta Regional Airport** — Valdosta
+- **Valley International Airport** — Harlingen
+- **Van Nuys Airport** — Van Nuys
+- **Vance Air Force Base** — Enid
+- **Vandalia Municipal Airport** — Vandalia
+- **Vandenberg Air Force Base** — Lompoc
+- **Venango Regional Airport** — Franklin
+- **Venetie Airport** — Venetie
+- **Venice Municipal Airport** — Venice
+- **Vermilion Regional Airport** — Danville
+- **Vernal Regional Airport** — Vernal
+- **Vero Beach Municipal Airport** — Vero Beach
+- **Veterans Airport of Southern Illinois** — Marion
+- **Vicksburg Municipal Airport** — Vicksburg
+- **Victoria Regional Airport** — Victoria
+- **Vidalia Regional Airport** — Vidalia
+- **Virgil I Grissom Municipal Airport** — Bedford
+- **Virginia Highlands Airport** — Abingdon
+- **Virginia Tech Montgomery Executive Airport** — Blacksburg
+- **Visalia Municipal Airport** — Visalia
+- **Vista Field** — Kennewick
+- **Volk Field** — Camp Douglas
+- **W H &#39;Bud&#39; Barron Airport** — Dublin
+- **Waco Regional Airport** — Waco
+- **Waimea Kohala Airport** — Kamuela
+- **Wainwright Airport** — Wainwright
+- **Wales Airport** — Wales
+- **Walla Walla Regional Airport** — Walla Walla
+- **Wallops Flight Facility Airport** — Wallops Island
+- **Walnut Ridge Regional Airport** — Walnut Ridge
+- **Walter J. Koladza Airport** — Great Barrington
+- **Warren County Memorial Airport** — Mc Minnville
+- **Warren Field** — Washington
+- **Warroad International Memorial Field** — Warroad
+- **Washington County Airport** — Washington
+- **Washington Dulles International Airport** — Dulles
+- **Wasilla Airport** — Wasilla
+- **Waterbury Oxford Airport** — Oxford
+- **Waterloo Regional Airport** — Waterloo
+- **Watertown International Airport** — Watertown
+- **Watertown Regional Airport** — Watertown
+- **Waterville Robert Lafleur Airport** — Waterville
+- **Watsonville Municipal Airport** — Watsonville
+- **Waukegan Regional Airport** — Chicago/Waukegan
+- **Waukesha County Airport** — Waukesha
+- **Wausau Downtown Airport** — Wausau
+- **Waycross Ware County Airport** — Waycross
+- **Wayne County Airport** — Wooster
+- **Waynesville-St. Robert Regional Forney field** — Fort Leonard Wood
+- **Webster City Municipal Airport** — Webster City
+- **Weedon Field** — Eufaula
+- **Wells Municipal Harriet Field** — Wells
+- **Wellsville Municipal ArptTarantine Field** — Wellsville
+- **Wendover Airport** — Wendover
+- **West Bend Municipal Airport** — West Bend
+- **West Houston Airport** — Houston
+- **West Memphis Municipal Airport** — West Memphis
+- **West Woodward Airport** — Woodward
+- **Westchester County Airport** — White Plains
+- **Westerly State Airport** — Westerly
+- **Western Neb. Rgnl/William B. Heilig Airport** — Scottsbluff
+- **Westfield-Barnes Regional Airport** — Westfield/Springfield
+- **Westover ARB/Metropolitan Airport** — Springfield/Chicopee
+- **Wexford County Airport** — Cadillac
+- **Wharton Regional Airport** — Wharton
+- **Wheeler Army Airfield** — Wahiawa
+- **Wheeler Sack Army Air Field** — Fort Drum
+- **Wheeling Ohio County Airport** — Wheeling
+- **Whidbey Island Naval Air Station /Ault Field/ Airport** — Oak Harbor
+- **White Mountain Airport** — White Mountain
+- **Whitehouse Nolf Airport** — Jacksonville
+- **Whiteman Air Force Base** — Knob Noster
+- **Whiteman Airport** — Los Angeles
+- **Whiteside Co Arpt-Jos H Bittorf field** — Sterling/Rockfalls
+- **Whiting Field Naval Air Station North Airport** — Milton
+- **Wichita Mid Continent Airport** — Wichita
+- **Wiley Post Airport** — Oklahoma City
+- **Wiley Post Will Rogers Memorial Airport** — Barrow
+- **Wilkes Barre Scranton International Airport** — Wilkes-Barre/Scranton
+- **Wilkes Barre Wyoming Valley Airport** — Wilkes-Barre
+- **Wilkes County Airport** — North Wilkesboro
+- **Will Rogers World Airport** — Oklahoma City
+- **William P Hobby Airport** — Houston
+- **William R Fairchild International Airport** — Port Angeles
+- **William T. Piper Memorial Airport** — Lock Haven
+- **Williamsport Regional Airport** — Williamsport
+- **Williston Basin International Airport** — Williston
+- **Willmar Municipal -John L Rice Field** — Willmar
+- **Willow Airport** — Willow
+- **Willow Run Airport** — Detroit
+- **Willows Glenn County Airport** — Willows
+- **Wilmington Air Park** — Wilmington
+- **Wilmington International Airport** — Wilmington
+- **Winchester Regional Airport** — Winchester
+- **Windom Municipal Airport** — Windom
+- **Wings Field** — Philadelphia
+- **Winkler County Airport** — Wink
+- **Winnemucca Municipal Airport** — Winnemucca
+- **Winona Municipal-Max Conrad Field** — Winona
+- **Winslow Lindbergh Regional Airport** — Winslow
+- **Winston Field** — Snyder
+- **Winter Haven&#39;s Gilbert Airport** — Winter Haven
+- **Wiscasset Airport** — Wiscasset
+- **Witham Field** — Stuart
+- **Wittman Regional Airport** — Oshkosh
+- **Wokal Field Glasgow International Airport** — Glasgow
+- **Woodward Field** — Camden
+- **Worcester Regional Airport** — Worcester
+- **Worland Municipal Airport** — Worland
+- **Worthington Municipal Airport** — Worthington
+- **Wrangell Airport** — Wrangell
+- **Wright Aaf (Fort Stewart)/Midcoast Regional Airport** — Fort Stewart(Hinesville)
+- **Wright Patterson Air Force Base** — Dayton
+- **Yakataga Airport** — Yakataga
+- **Yakima Air Terminal McAllister Field** — Yakima
+- **Yakutat Airport** — Yakutat
+- **Yampa Valley Airport** — Hayden
+- **Yeager Airport** — Charleston
+- **Yellowstone Airport** — West Yellowstone
+- **Yellowstone Regional Airport** — Cody
+- **Yerington Municipal Airport** — Yerington
+- **Yoakum–DeFrenn Army Heliport** — Fort Cavazos(Killeen)
+- **York Airport** — York
+- **Youngstown Warren Regional Airport** — Youngstown/Warren
+- **Yuba County Airport** — Marysville
+- **Yuma MCAS/Yuma International Airport** — Yuma
+- **Z M Jack Stell Field** — Crossett
+- **Zamperini Field** — Torrance
+- **Zanesville Municipal Airport** — Zanesville
+- **Zephyrhills Municipal Airport** — Zephyrhills

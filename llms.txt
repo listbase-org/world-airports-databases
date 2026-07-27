@@ -1,0 +1,39 @@
+# World Airports Database
+
+> Global airports database with ICAO/IATA codes, coordinates, city, country, elevation, and timezone. 7,900+ airports.
+
+This repository contains a database of world airports database covering 1 datasets with 7,914 records.
+
+## Available Formats
+
+- SQLite database (.db) — ready to query
+- SQL dump (.sql) — import into MySQL, PostgreSQL, MariaDB, etc.
+- Excel, CSV, PDF — available at https://listbase.org
+
+## Data Structure
+
+Table: `airports`
+- `icao` (TEXT)
+- `iata` (TEXT)
+- `name` (TEXT NOT NULL)
+- `city` (TEXT)
+- `state` (TEXT)
+- `country` (TEXT NOT NULL)
+- `elevation` (INTEGER)
+- `lat` (REAL)
+- `lon` (REAL)
+- `tz` (TEXT)
+
+## Download
+
+- GitHub Releases: https://github.com/listbase-org/world-airports-databases/releases
+- Excel/CSV/PDF: https://listbase.org/en/transport/
+
+## License
+
+MIT — Free to use for any purpose.
+
+## About
+
+Maintained by ListBase.org — Free Reference Tables & Lists
+Website: https://listbase.org
