@@ -1,0 +1,580 @@
+# Australia — World Airports Database
+
+528 records for **Australia** (AU).
+
+## Download
+
+| Format | Link |
+|---|---|
+| **SQLite / SQL** (all countries) | [GitHub Releases](../../releases) |
+| **Excel / CSV / PDF** (Australia only) | [listbase.org](https://listbase.org/en/transport/) |
+
+## Preview
+
+| icao | iata | name | city | state | country | elevation | lat | lon | tz |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| YABA | ALH | Albany Airport | Albany | Western Australia | AU | 233 | -34.9432983398 | 117.8089981079 | Australia/Perth |
+| YABI | ABG | Abingdon Downs Airport |  | Queensland | AU |  | -17.6166992188 | 143.167007446 | Australia/Brisbane |
+| YADS | AWN | Alton Downs Airport |  | South Australia | AU |  | -26.5333003998 | 139.266998291 | Australia/Adelaide |
+| YAGD | AUD | Augustus Downs Airport |  | Queensland | AU | 46 | -18.5149993896 | 139.8780059814 | Australia/Brisbane |
+| YALA | MRP | Marla Airport |  | South Australia | AU | 328 | -27.3332996368 | 133.6269989014 | Australia/Adelaide |
+| YALX | AXL | Alexandria Homestead Airport |  | Northern-Territory | AU |  | -19.0601997375 | 136.7100067139 | Australia/Darwin |
+| YAMC | AXC | Aramac Airport |  | Queensland | AU | 232 | -22.9666996002 | 145.2420043945 | Australia/Brisbane |
+| YAMK | ADO | Andamooka Airport |  | South Australia | AU | 76 | -30.4382991791 | 137.1369934082 | Australia/Adelaide |
+| YAMM | AMX | Ammaroo Airport |  | Northern-Territory | AU |  | -21.7383003235 | 135.2420043945 | Australia/Darwin |
+| YAMT | AMT | Amata Airport |  | South Australia | AU | 695 | -26.1082992554 | 131.2070007324 | Australia/Adelaide |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+
+*Showing 10 of 528 records*
+
+## Schema
+
+```sql
+SELECT * FROM airports WHERE country = 'AU';
+```
+
+## Stats
+
+- **528** records
+- Country: **Australia** (AU)
+
+## Browse & Download
+
+📊 **[Download Australia data as Excel/CSV/PDF](https://listbase.org/en/transport/)**
+
+---
+
+Part of [World Airports Database](https://github.com/listbase-org/world-airports-databases) — 7,914 records across 236 countries.
+
+Made with data from [ListBase.org](https://listbase.org) — Free Reference Tables & Lists
+
+## All Entries (528)
+
+- **Adelaide International Airport** — Adelaide
+- **Albany Airport** — Albany
+- **Albury Airport** — Albury
+- **Alice Springs Airport** — Alice Springs
+- **Armidale Airport** — Armidale
+- **Avalon Airport** — Melbourne
+- **Ayers Rock Connellan Airport** — Ayers Rock
+- **Ballina Byron Gateway Airport** — Ballina
+- **Barcaldine Airport** — Barcaldine
+- **Bathurst Airport** — Bathurst
+- **Big Bell Airport** — Big Bell
+- **Bizant Airport** — Lakefield National Park
+- **Blackall Airport** — Blackall
+- **Brisbane International Airport** — Brisbane
+- **Broken Hill Airport** — Broken Hill
+- **Broome International Airport** — Broome
+- **Bundaberg Airport** — Bundaberg
+- **Busselton Regional Airport** — Busselton
+- **Cairns International Airport** — Cairns
+- **Canberra International Airport** — Canberra
+- **Canobie Airport** — Canobie
+- **Charleville Airport** — Charleville
+- **Clifton Hills Landing Strip** — Clifton Hills Station
+- **Cloncurry Airport** — Cloncurry
+- **Coffs Harbour Airport** — Coffs Harbour
+- **Cooma Snowy Mountains Airport** — Cooma
+- **Cordillo Downs Airport** — Cordillo Downs
+- **Daly Waters Airport** — Daly Waters
+- **Darnley Island Airport** — Darnley Island
+- **Darwin International Airport** — Darwin
+- **Devonport Airport** — Devonport
+- **Dixie Airport** — New Dixie
+- **Drumduff Airport** — Drumduff
+- **Dubbo City Regional Airport** — Dubbo
+- **Dulkaninna Airport** — Dulkaninna
+- **Einasleigh Airport** — Einasleigh
+- **Elcho Island Airport** — Elcho Island
+- **Emerald Airport** — Emerald
+- **Eneabba Airport** — Eneabba
+- **Etadunna Airport** — Etadunna
+- **Eva Downs Airport** — Eva Downs
+- **Finke Airport** — Finke
+- **Forbes Airport** — Forbes
+- **Fortescue - Dave Forrest Aerodrome** — Cloudbreak Village
+- **Ginbata** — Ginbata
+- **Gladstone Airport** — Gladstone
+- **Gold Coast Airport** — Gold Coast
+- **Gordon Downs Airport** — Gordon Downs
+- **Gove Airport** — Nhulunbuy
+- **Graeme Rowley Aerodrome** — Christmas Creek mine
+- **Griffith Airport** — Griffith
+- **Groote Eylandt Airport** — Groote Eylandt
+- **Gruyere Mine Airport** — Gruyere
+- **Gudai-Darri Airstrip** — Newman
+- **Hamilton Island Airport** — Hamilton Island
+- **Hervey Bay Airport** — Hervey Bay
+- **Hobart International Airport** — Hobart
+- **Horn Island Airport** — Horn Island
+- **Inverway Airport** — Inverway
+- **Kalgoorlie-Boulder Airport** — Kalgoorlie
+- **Karratha Airport** — Karratha
+- **Kirkimbie Station Airport** — Kirkimbie
+- **Koolburra Airport** — Koolburra
+- **Kowanyama Airport** — Kowanyama
+- **Kununurra Airport** — Kununurra
+- **Lake Evella Airport** — Lake Evella
+- **Launceston Airport** — Launceston
+- **Learmonth Airport** — Exmouth
+- **Leonora Airport** — Leonora
+- **Lindeman Island Airport** — Lindeman Island
+- **Lismore Airport** — Lismore
+- **Lock Airport** — Lock
+- **Longreach Airport** — Longreach
+- **Lord Howe Island Airport** — Lord Howe Island
+- **Lotus Vale Airport** — Lotus Vale
+- **Lyndhurst Airport** — Lyndhurst
+- **Mabuiag Island Airport** — Mabuiag Island
+- **Mackay Airport** — Mackay
+- **Mandora Airport** — Mandora
+- **Maningrida Airport** — Maningrida
+- **Marqua Airport** — Marqua
+- **McArthur River Mine Airport** — McArthur River Mine
+- **Melbourne International Airport** — Melbourne
+- **Melbourne Moorabbin Airport** — Melbourne
+- **Merimbula Airport** — Merimbula
+- **Mildura Airport** — Mildura
+- **Milingimbi Airport** — Milingimbi Island
+- **Mitchell Plateau Airport** — Mitchell Plateau
+- **Moranbah Airport** — Moranbah
+- **Moree Airport** — Moree
+- **Moreton Airport** — Moreton
+- **Moruya Airport** — Moruya
+- **Mount Gunson Airport** — Mount Gunson
+- **Mount Hotham Airport** — Mount Hotham
+- **Mount Isa Airport** — Mount Isa
+- **Muccan Station Airport** — Muccan Station
+- **Mudgee Airport** — Mudgee
+- **Mulka Airport** — Mulka
+- **Mungeranie Airport** — Mungeranie
+- **Murray Island Airport** — Murray Island
+- **Nambucca Heads Airport** — Nambucca Heads
+- **Narrabri Airport** — Narrabri
+- **Narrandera Airport** — Narrandera
+- **Newcastle Airport** — Williamtown
+- **Newman Airport** — Newman
+- **Olympic Dam Airport** — Olympic Dam
+- **Orange Airport** — Orange
+- **Ord River Airport** — Ord River
+- **Paraburdoo Airport** — Paraburdoo
+- **Pardoo Airport** — Pardoo
+- **Parkes Airport** — Parkes
+- **Parndana Airport** — Parndana
+- **Penneshaw Airport** — Ironstone
+- **Perth International Airport** — Perth
+- **Perth Jandakot Airport** — Perth
+- **Port Hedland International Airport** — Port Hedland
+- **Port Lincoln Airport** — Port Lincoln
+- **Port Macquarie Airport** — Port Macquarie
+- **Proserpine Whitsunday Coast Airport** — Proserpine
+- **Pumululu National Park** — Bellburn
+- **RAAF Base Richmond** — Richmond
+- **Rockhampton Airport** — Rockhampton
+- **Roebourne Airport** — Roebourne
+- **Roma Airport** — Roma
+- **Saibai Island Airport** — Saibai Island
+- **Sandstone Airport** — Sandstone
+- **Shark Bay Airport** — Monkey Mia
+- **Shay Gap Airport** — Shay Gap
+- **Singleton Airport** — Singleton
+- **Solomon Airport** — Karijini National Park
+- **Sunshine Coast Airport** — Maroochydore
+- **Sydney Bankstown Airport** — Sydney
+- **Sydney Kingsford Smith International Airport** — Sydney
+- **Tamworth Airport** — Tamworth
+- **Tarcoola Airport** — Tarcoola
+- **Taree Airport** — Taree
+- **Tennant Creek Airport** — Tennant Creek
+- **Thangool Airport** — Biloela
+- **The Granites Airport** — The Granites
+- **Tobermorey Airport** — Tobermorey
+- **Tom Price Airport** — Tom Price
+- **Toowoomba Wellcamp Airport** — Wellcamp
+- **Townsville Airport** — Townsville
+- **Turkey Creek Airport** — Turkey Creek
+- **Wagga Wagga City Airport** — Wagga Wagga
+- **Wallal Airport** — Wallal
+- **Warraber Island Airport** — Sue Islet
+- **Weipa Airport** — Weipa
+- **West Sale Airport** — West Sale
+- **West Wyalong Airport** — West Wyalong
+- **Whyalla Airport** — Whyalla
+- **Wilpena Pound Airport** — Hawker
+- **Woodie Woodie Airport** — Woodie Woodie
+- **Woomera Airfield** — Woomera
+- **Wynyard Airport** — Burnie
+- **Yalata Mission Airport** — Yalata Mission
+- **Yalgoo Airport** — Yalgoo
+- **Yam Island Airport** — Yam Island
+- **Yorke Island Airport** — Yorke Island
+- Abingdon Downs Airport
+- Aeropelican Airport
+- Alexandria Homestead Airport
+- Alpha Airport
+- Alton Downs Airport
+- Amata Airport
+- Ammaroo Airport
+- Andamooka Airport
+- Anthony Lagoon Airport
+- Aramac Airport
+- Ararat Airport
+- Argyle Airport
+- Arrabury Airport
+- Augustus Downs Airport
+- Aurukun Airport
+- Austral Downs Airport
+- Auvergne Airport
+- Ayr Airport
+- Badu Island Airport
+- Bairnsdale Airport
+- Balcanoona Airport
+- Balgo Hill Airport
+- Ballera Airport
+- Balranald Airport
+- Bamaga Injinoo Airport
+- Barimunya Airport
+- Barkly Downs Airport
+- Barrow Island Airport
+- Bathurst Island Airport
+- Bedford Downs Airport
+- Bedourie Airport
+- Benalla Airport
+- Bendigo Airport
+- Betoota Airport
+- Beverley Springs Airport
+- Billiluna Airport
+- Birdsville Airport
+- Blackwater Airport
+- Boigu Airport
+- Bollon Airport
+- Boolgeeda Airport
+- Borroloola Airport
+- Boulia Airport
+- Bourke Airport
+- Bowen Airport
+- Brampton Island Airport
+- Brewarrina Airport
+- Brunette Downs Airport
+- Bulimba Airport
+- Bunbury Airport
+- Burketown Airport
+- Caiguna Airport
+- Caloundra Airport
+- Camden Airport
+- Camfield Airport
+- Camooweal Airport
+- Camp Nifty Airport
+- Cape Barren Island Airport
+- Carnarvon Airport
+- Casino Airport
+- Ceduna Airport
+- Cessnock Airport
+- Charters Towers Airport
+- Chillagoe Airport
+- Chinchilla Airport
+- Christmas Creek Station Airport
+- Clermont Airport
+- Cleve Airport
+- Cluny Airport
+- Cobar Airport
+- Coconut Island Airport
+- Coen Airport
+- Colac Airport
+- Collarenebri Airport
+- Collie Airport
+- Collinsville Airport
+- Condobolin Airport
+- Coober Pedy Airport
+- Cooinda Airport
+- Cooktown Airport
+- Coolah Airport
+- Coolawanyah Airport
+- Coonabarabran Airport
+- Coonamble Airport
+- Coondewanna Wa Airport
+- Cootamundra Airport
+- Corowa Airport
+- Corryong Airport
+- Cowarie Airport
+- Cowell Airport
+- Cowra Airport
+- Croker Island Airport
+- Croydon Airport
+- Cudal Airport
+- Cue Airport
+- Cunnamulla Airport
+- Dajarra Airport
+- Dalby Airport
+- Dalgaranga Gold Mine Airport
+- Daly River Airport
+- Davenport Downs Airport
+- Delissaville Airport
+- Delta Downs Airport
+- Deniliquin Airport
+- Derby Airport
+- Dirranbandi Airport
+- Docker River Airport
+- Dongara Airport
+- Doomadgee Airport
+- Dorunda Airport
+- Drysdale River Airport
+- Dunbar Airport
+- Dunk Island Airport
+- Durham Downs Airport
+- Durrie Airport
+- Dysart Airport
+- Echuca Airport
+- Ernabella Airport
+- Esperance Airport
+- Eucla Airport
+- Evans Head Aerodrome
+- Exmouth Airport
+- Finley Airport
+- Fitzroy Crossing Airport
+- Flinders Island Airport
+- Flora Valley Airport
+- Forrest Airport
+- Forster (Wallis Is) Airport
+- Gamboola Airport
+- Garden Point Airport
+- Gascoyne Junction Airport
+- Gayndah Airport
+- Geelong Airport
+- Georgetown (Tas) Airport
+- Georgetown Airport
+- Geraldton Airport
+- Gibb River Airport
+- Glen Innes Airport
+- Glengyle Airport
+- Glenormiston Airport
+- Goondiwindi Airport
+- Goulburn Airport
+- Grafton Airport
+- Great Keppel Is Airport
+- Greenvale Airport
+- Gregory Downs Airport
+- Gunnedah Airport
+- Gympie Airport
+- Halls Creek Airport
+- Hamilton Airport
+- Hay Airport
+- Headingly Airport
+- Heathlands Airport
+- Henbury Airport
+- Hermannsburg Airport
+- Highbury Airport
+- Hillside Airport
+- Hooker Creek Airport
+- Hopetoun Airport
+- Horsham Airport
+- Hughenden Airport
+- Humbert River Airport
+- Iffley Airport
+- Indulkana Airport
+- Ingham Airport
+- Injune Airport
+- Inkerman Airport
+- Innamincka Airport
+- Innisfail Airport
+- Inverell Airport
+- Isisford Airport
+- Jabiru Airport
+- Jindabyne Airport
+- Julia Creek Airport
+- Jundah Airport
+- Jurien Bay Airport
+- Kalbarri Airport
+- Kalkgurung Airport
+- Kalpowar Airport
+- Kalumburu Airport
+- Kambalda Airport
+- Kamileroi Airport
+- Karumba Airport
+- Katanning Airport
+- Kempsey Airport
+- Kerang Airport
+- King Island Airport
+- Kingaroy Airport
+- Kings Canyon Airport
+- Kings Creek Airport
+- Kingscote Airport
+- Koolatah Airport
+- Kubin Airport
+- Lake Nash Airport
+- Lakefield Airport
+- Lakeland Airport
+- Latrobe Valley Airport
+- Laura Airport
+- Laverton Airport
+- Lawn Hill Airport
+- Leigh Creek Airport
+- Leinster Airport
+- Lightning Ridge Airport
+- Lizard Island Airport
+- Lockhart River Airport
+- Lorraine Airport
+- Macdonald Downs Airport
+- Maitland Airport
+- Mallacoota Airport
+- Manjimup Airport
+- Manners Creek Airport
+- Marble Bar Airport
+- Mareeba Airport
+- Margaret River (Station) Airport
+- Margaret River Airport
+- Marion Downs Airport
+- Marla Airport
+- Marree Airport
+- Maryborough Airport
+- Meekatharra Airport
+- Melbourne Essendon Airport
+- Merluna Airport
+- Merty Merty Airport
+- Middlemount Airport
+- Miles Airport
+- Millicent Airport
+- Minlaton Airport
+- Minnipa Airport
+- Miralwyn Airport
+- Mitchell Airport
+- Monkira Airport
+- Monto Airport
+- Moolawatana Airport
+- Moomba Airport
+- Mooraberree Airport
+- Morawa Airport
+- Morney Airport
+- Mornington Island Airport
+- Mount Cavenagh Airport
+- Mount Gambier Airport
+- Mount House Airport
+- Mount Keith Airport
+- Mount Magnet Airport
+- Mount Sanford Station Airport
+- Mount Swan Airport
+- Mulga Park Airport
+- Mullewa Airport
+- Murrin Murrin Airport
+- Musgrave Airport
+- Muttaburra Airport
+- Myroodan Station Airport
+- Nappa Merrie Airport
+- Naracoorte Airport
+- Narrogin Airport
+- Narromine Airport
+- New Laura Airport
+- Ngukurr Airport
+- Nicholson Airport
+- Noosa Airport
+- Normanton Airport
+- Norseman Airport
+- Nowra Airport
+- Nullabor Motel Airport
+- Nullagine Airport
+- Numbulwar Airport
+- Nyngan Airport
+- Oakey Airport
+- Oenpelli Airport
+- Onslow Airport
+- Oodnadatta Airport
+- Orbost Airport
+- Osborne Mine Airport
+- Ouyen Airport
+- Palm Island Airport
+- Pandie Pandie Airport
+- Porepunkah Airport
+- Pormpuraaw Airport
+- Port Augusta Airport
+- Port Keats Airport
+- Port Pirie Airport
+- Portland Airport
+- Queenstown Airport
+- Quilpie Airport
+- Quirindi Airport
+- RAAF Base Curtin
+- Ramingining Airport
+- Ravensthorpe Airport
+- Renmark Airport
+- Richmond Airport
+- Robinhood Airport
+- Robinvale Airport
+- Roper Bar Airport
+- Roseberth Airport
+- Rottnest Island Airport
+- Roy Hill Station Airport
+- Rutland Plains Airport
+- Scone Airport
+- Shepparton Airport
+- Shute Harbour Airport
+- Smith Point Airport
+- Smithton Airport
+- Snake Bay Airport
+- South Galway Airport
+- South Goulburn Is Airport
+- Southern Cross Airport
+- Southport Airport
+- Spring Creek Airport
+- Springvale Airport
+- St George Airport
+- St Helens Airport
+- Stanthorpe Airport
+- Stawell Airport
+- Strahan Airport
+- Strathmore Airport
+- Streaky Bay Airport
+- Swan Hill Airport
+- Tableland Homestead Airport
+- Tangalooma Airport
+- Tara Airport
+- Taroom Airport
+- Telfer Airport
+- Temora Airport
+- Thargomindah Airport
+- The Monument Airport
+- Theda Station Airport
+- Theodore Airport
+- Thylungra Airport
+- Tibooburra Airport
+- Timber Creek Airport
+- Tindal Airport
+- Tocumwal Airport
+- Toowoomba Airport
+- Trepell Airport
+- Truscott Mungalalu Airport
+- Tumut Airport
+- Undara Airport
+- Useless Loop Airport
+- Vanrook Station Airport
+- Victoria River Downs Airport
+- Walcha Airport
+- Walgett Airport
+- Wangaratta Airport
+- Warracknabeal Airport
+- Warrawagine Airport
+- Warren Airport
+- Warrnambool Airport
+- Warwick Airport
+- Waterloo Airport
+- Wave Hill Airport
+- Wee Waa Airport
+- West Angelas Airport
+- Whitsunday Island Airport
+- Wilcannia Airport
+- Wiluna Airport
+- Windarra Airport
+- Windorah Airport
+- Winton Airport
+- Wittenoom Airport
+- Wollogorang Airport
+- Wollongong Airport
+- Wondai Airport
+- Wondoola Airport
+- Wrotham Park Airport
+- Wudinna Airport
+- Wyndham Airport
+- Yeelirrie Airport
+- Yorketown Airport
+- Young Airport
+- Yuendumu Airport
